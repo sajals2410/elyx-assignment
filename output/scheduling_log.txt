@@ -1,0 +1,945 @@
+Starting schedule generation from 2026-01-15 to 2026-01-29
+
+--- Scheduling for 2026-01-15 (Thu) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✗ Could not schedule: Cardiologist Check-up - Reschedule appointment within 2 weeks
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 07:20-07:50
+  ✓ Scheduled: Afternoon Healthy Snack at 07:50-08:00
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: Evening Supplement at 17:50-17:55
+  ✓ Scheduled: Hydration Check at 08:00-08:05
+  ✓ Scheduled: Probiotics Intake at 08:05-08:10
+  ✓ Scheduled: Collagen Supplement at 08:10-08:15
+  ✓ Scheduled: Electrolyte Drink at 08:15-08:20
+  ✓ Scheduled: Green Smoothie at 08:20-08:30
+  ✓ Scheduled: Eye Exercise Routine at 08:30-08:40
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✓ Scheduled: Mobility and Stretching at 08:40-08:55
+  ✓ Scheduled: Meal Prep Sunday at 17:55-19:55
+  ✗ Could not schedule: Endocrinologist Consultation - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Nutritionist Session - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Physical Therapy Session - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Mental Health Check-in - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Dermatologist Appointment - Reschedule appointment within 2 weeks
+  ✓ Scheduled: Vitamin B12 Supplement at 08:55-09:00
+  ✗ Could not schedule: Ophthalmologist Visit - Reschedule appointment within 2 weeks
+  ✓ Scheduled: Evening Protein Snack at 19:55-20:05
+  ✗ Could not schedule: Sleep Specialist Consultation - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Sports Medicine Consultation - Reschedule appointment within 2 weeks
+  ✓ Scheduled: Vitamin C Intake at 20:05-20:10
+  ✗ Could not schedule: Functional Medicine Doctor - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Occupational Therapist Session - Reschedule appointment within 2 weeks
+  ✓ Scheduled: Fiber Supplement at 20:10-20:15
+  ✗ Could not schedule: Speech Therapist Session - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Chiropractor Adjustment - Reschedule appointment within 2 weeks
+  ✓ Scheduled: Apple Cider Vinegar at 20:15-20:20
+  ✗ Could not schedule: Health Coach Check-in - Reschedule appointment within 2 weeks
+  ✓ Scheduled: Light Recovery Walk at 20:20-20:40
+  ✓ Scheduled: Mid-Day Walk at 20:40-20:50
+  ✓ Scheduled: Foam Rolling Session at 20:50-21:05
+  ✓ Scheduled: Contrast Therapy at 21:05-21:50
+  ✓ Scheduled: Plank Challenge at 21:50-21:55
+  ✗ Could not schedule: Deep Tissue Massage - Reschedule within the week if possible
+  ✓ Scheduled: Wall Sits at 21:55-22:00
+  ✗ Could not schedule: Acupuncture Session - Reschedule within the week if possible
+  ✗ Could not schedule: Standing Desk Breaks - Resume on next scheduled day
+  ✗ Could not schedule: Neck and Shoulder Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Red Light Therapy - Reschedule within the week if possible
+  ✗ Could not schedule: Hip Flexor Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Compression Therapy - Reschedule within the week if possible
+  ✗ Could not schedule: Float Tank Session - Reschedule within the week if possible
+  ✗ Could not schedule: Ankle Mobility Drills - Resume on next scheduled day
+  ✗ Could not schedule: Hyperbaric Oxygen Therapy - Reschedule within the week if possible
+  ✗ Could not schedule: Cryotherapy Chamber - Reschedule within the week if possible
+  ✗ Could not schedule: Evening Wind-Down Routine - Resume on next scheduled day
+  ✗ Could not schedule: Wrist Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Sound Bath/Meditation - Reschedule within the week if possible
+  ✗ Could not schedule: Breathwork Session - Reschedule within the week if possible
+  ✗ Could not schedule: Meditation Session - Resume on next scheduled day
+  ✗ Could not schedule: Progressive Muscle Relaxation - Resume on next scheduled day
+  ✗ Could not schedule: Deep Breathing Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Box Breathing - Resume on next scheduled day
+  ✗ Could not schedule: Cold Shower Ending - Resume on next scheduled day
+  ✗ Could not schedule: Gratitude Journaling - Resume on next scheduled day
+  ✗ Could not schedule: Brain Training Games - Resume on next scheduled day
+  ✗ Could not schedule: Sleep Hygiene Review - Resume on next scheduled day
+  ✗ Could not schedule: Social Connection Time - Resume on next scheduled day
+  ✗ Could not schedule: Nature Exposure - Resume on next scheduled day
+  ✗ Could not schedule: Weekly Progress Photos - Resume on next scheduled day
+  ✗ Could not schedule: Weekly Weigh-in - Resume on next scheduled day
+
+--- Scheduling for 2026-01-16 (Fri) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 07:20-07:50
+  ✓ Scheduled: Afternoon Healthy Snack at 07:50-08:00
+  ✓ Scheduled: Morning Zone 2 Cardio Run at 08:00-08:45
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: High-Intensity Interval Training at 17:50-18:20
+  ✓ Scheduled: Evening Supplement at 18:20-18:25
+  ✓ Scheduled: Strength Training - Upper Body at 18:25-19:25
+  ✓ Scheduled: Hydration Check at 08:45-08:50
+  ✓ Scheduled: Strength Training - Lower Body at 19:25-20:25
+  ✓ Scheduled: Probiotics Intake at 08:50-08:55
+  ✓ Scheduled: Yoga Flow Session at 20:25-21:10
+  ✓ Scheduled: Collagen Supplement at 08:55-09:00
+  ✓ Scheduled: Swimming Laps at 21:10-21:50
+  ✓ Scheduled: Electrolyte Drink at 21:50-21:55
+  ✗ Could not schedule: Cycling Session - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Green Smoothie - Ensure adequate nutrition in next meal
+  ✗ Could not schedule: Eye Exercise Routine - Add extra cardio to next session if skipped
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✗ Could not schedule: Core Stability Workout - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Omega-3 Rich Fish Meal - Ensure adequate nutrition in next meal
+  ✗ Could not schedule: Mobility and Stretching - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Walking Meditation - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Resistance Band Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Balance Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Rowing Machine Workout - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Pilates Session - Add extra cardio to next session if skipped
+  ✓ Scheduled: Vitamin B12 Supplement at 21:55-22:00
+  ✗ Could not schedule: Stair Climbing - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Evening Protein Snack - Resume on next scheduled day
+  ✗ Could not schedule: Kettlebell Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Tai Chi Practice - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Vitamin C Intake - Resume on next scheduled day
+  ✗ Could not schedule: Boxing/Kickboxing - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Functional Movement Screen - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Fiber Supplement - Resume on next scheduled day
+  ✗ Could not schedule: Apple Cider Vinegar - Resume on next scheduled day
+  ✗ Could not schedule: Jump Rope Session - Resume on next scheduled day
+  ✗ Could not schedule: Light Recovery Walk - Resume on next scheduled day
+  ✗ Could not schedule: Stair Intervals - Resume on next scheduled day
+  ✗ Could not schedule: Mid-Day Walk - Resume on next scheduled day
+  ✗ Could not schedule: Grip Strength Training - Resume on next scheduled day
+  ✗ Could not schedule: Infrared Sauna Session - Reschedule within the week if possible
+  ✗ Could not schedule: Cold Plunge/Ice Bath - Reschedule within the week if possible
+  ✗ Could not schedule: Foam Rolling Session - Resume on next scheduled day
+  ✗ Could not schedule: Plank Challenge - Resume on next scheduled day
+  ✗ Could not schedule: Wall Sits - Resume on next scheduled day
+  ✗ Could not schedule: Standing Desk Breaks - Resume on next scheduled day
+  ✗ Could not schedule: Neck and Shoulder Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Hip Flexor Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Ankle Mobility Drills - Resume on next scheduled day
+  ✗ Could not schedule: Evening Wind-Down Routine - Resume on next scheduled day
+  ✗ Could not schedule: Wrist Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Breathwork Session - Reschedule within the week if possible
+  ✗ Could not schedule: Meditation Session - Resume on next scheduled day
+  ✗ Could not schedule: Progressive Muscle Relaxation - Resume on next scheduled day
+  ✗ Could not schedule: Posture Check-ins - Resume on next scheduled day
+  ✗ Could not schedule: Deep Breathing Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Box Breathing - Resume on next scheduled day
+  ✗ Could not schedule: Cold Shower Ending - Resume on next scheduled day
+  ✗ Could not schedule: Gratitude Journaling - Resume on next scheduled day
+  ✗ Could not schedule: Brain Training Games - Resume on next scheduled day
+  ✗ Could not schedule: Magnesium Bath Soak - Resume on next scheduled day
+
+--- Scheduling for 2026-01-17 (Sat) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 12:00-12:30
+  ✓ Scheduled: Afternoon Healthy Snack at 12:30-12:40
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: Evening Supplement at 17:50-17:55
+  ✓ Scheduled: Hydration Check at 07:20-07:25
+  ✓ Scheduled: Probiotics Intake at 07:25-07:30
+  ✓ Scheduled: Collagen Supplement at 07:30-07:35
+  ✓ Scheduled: Electrolyte Drink at 07:35-07:40
+  ✓ Scheduled: Green Smoothie at 07:40-07:50
+  ✓ Scheduled: Eye Exercise Routine at 07:50-08:00
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✓ Scheduled: Mobility and Stretching at 08:00-08:15
+  ✓ Scheduled: Vitamin B12 Supplement at 08:15-08:20
+  ✓ Scheduled: Evening Protein Snack at 17:55-18:05
+  ✓ Scheduled: Vitamin C Intake at 08:20-08:25
+  ✓ Scheduled: Fiber Supplement at 08:25-08:30
+  ✓ Scheduled: Apple Cider Vinegar at 08:30-08:35
+  ✓ Scheduled: Light Recovery Walk at 08:35-08:55
+  ✓ Scheduled: Mid-Day Walk at 08:55-09:05
+  ✓ Scheduled: Foam Rolling Session at 09:05-09:20
+  ✓ Scheduled: Plank Challenge at 09:20-09:25
+  ✓ Scheduled: Wall Sits at 09:25-09:30
+  ✓ Scheduled: Standing Desk Breaks at 09:30-09:35
+  ✓ Scheduled: Neck and Shoulder Stretches at 09:35-09:45
+  ✓ Scheduled: Hip Flexor Stretches at 09:45-09:55
+  ✓ Scheduled: Ankle Mobility Drills at 09:55-10:05
+  ✓ Scheduled: Evening Wind-Down Routine at 18:05-18:20
+  ✓ Scheduled: Wrist Exercises at 10:05-10:10
+  ✓ Scheduled: Breathwork Session at 12:40-13:10
+  ✓ Scheduled: Meditation Session at 10:10-10:25
+  ✓ Scheduled: Progressive Muscle Relaxation at 10:25-10:40
+  ✓ Scheduled: Deep Breathing Exercises at 10:40-10:50
+  ✓ Scheduled: Box Breathing at 10:50-11:00
+  ✓ Scheduled: Cold Shower Ending at 11:00-11:05
+  ✓ Scheduled: Gratitude Journaling at 11:05-11:15
+  ✓ Scheduled: Brain Training Games at 11:15-11:30
+
+--- Scheduling for 2026-01-18 (Sun) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 12:00-12:30
+  ✓ Scheduled: Afternoon Healthy Snack at 12:30-12:40
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: Evening Supplement at 17:50-17:55
+  ✓ Scheduled: Hydration Check at 07:20-07:25
+  ✓ Scheduled: Probiotics Intake at 07:25-07:30
+  ✓ Scheduled: Collagen Supplement at 07:30-07:35
+  ✓ Scheduled: Electrolyte Drink at 07:35-07:40
+  ✓ Scheduled: Green Smoothie at 07:40-07:50
+  ✓ Scheduled: Eye Exercise Routine at 07:50-08:00
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✓ Scheduled: Mobility and Stretching at 08:00-08:15
+  ✓ Scheduled: Vitamin B12 Supplement at 08:15-08:20
+  ✓ Scheduled: Evening Protein Snack at 17:55-18:05
+  ✓ Scheduled: Vitamin C Intake at 08:20-08:25
+  ✓ Scheduled: Fiber Supplement at 08:25-08:30
+  ✓ Scheduled: Apple Cider Vinegar at 08:30-08:35
+  ✓ Scheduled: Light Recovery Walk at 08:35-08:55
+  ✓ Scheduled: Mid-Day Walk at 08:55-09:05
+  ✓ Scheduled: Foam Rolling Session at 09:05-09:20
+  ✓ Scheduled: Plank Challenge at 09:20-09:25
+  ✓ Scheduled: Wall Sits at 09:25-09:30
+  ✓ Scheduled: Standing Desk Breaks at 09:30-09:35
+  ✓ Scheduled: Neck and Shoulder Stretches at 09:35-09:45
+  ✓ Scheduled: Hip Flexor Stretches at 09:45-09:55
+  ✓ Scheduled: Ankle Mobility Drills at 09:55-10:05
+  ✓ Scheduled: Evening Wind-Down Routine at 18:05-18:20
+  ✓ Scheduled: Wrist Exercises at 10:05-10:10
+  ✓ Scheduled: Breathwork Session at 12:40-13:10
+  ✓ Scheduled: Meditation Session at 10:10-10:25
+  ✓ Scheduled: Progressive Muscle Relaxation at 10:25-10:40
+  ✓ Scheduled: Deep Breathing Exercises at 10:40-10:50
+  ✓ Scheduled: Box Breathing at 10:50-11:00
+  ✓ Scheduled: Cold Shower Ending at 11:00-11:05
+  ✓ Scheduled: Gratitude Journaling at 11:05-11:15
+  ✓ Scheduled: Brain Training Games at 11:15-11:30
+
+--- Scheduling for 2026-01-19 (Mon) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 07:20-07:50
+  ✓ Scheduled: Afternoon Healthy Snack at 07:50-08:00
+  ✓ Scheduled: Morning Zone 2 Cardio Run at 08:00-08:45
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: Evening Supplement at 17:50-17:55
+  ✓ Scheduled: Strength Training - Upper Body at 17:55-18:55
+  ✓ Scheduled: Hydration Check at 08:45-08:50
+  ✓ Scheduled: Strength Training - Lower Body at 18:55-19:55
+  ✓ Scheduled: Probiotics Intake at 08:50-08:55
+  ✓ Scheduled: Collagen Supplement at 08:55-09:00
+  ✓ Scheduled: Electrolyte Drink at 19:55-20:00
+  ✓ Scheduled: Cycling Session at 20:00-21:00
+  ✓ Scheduled: Green Smoothie at 21:00-21:10
+  ✓ Scheduled: Eye Exercise Routine at 21:10-21:20
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✓ Scheduled: Core Stability Workout at 21:20-21:40
+  ✓ Scheduled: Mobility and Stretching at 21:40-21:55
+  ✗ Could not schedule: Walking Meditation - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Resistance Band Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Balance Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Physical Therapy Session - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Rowing Machine Workout - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Mental Health Check-in - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Pilates Session - Add extra cardio to next session if skipped
+  ✓ Scheduled: Vitamin B12 Supplement at 21:55-22:00
+  ✗ Could not schedule: Stair Climbing - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Evening Protein Snack - Resume on next scheduled day
+  ✗ Could not schedule: Kettlebell Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Tai Chi Practice - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Vitamin C Intake - Resume on next scheduled day
+  ✗ Could not schedule: Boxing/Kickboxing - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Functional Movement Screen - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Fiber Supplement - Resume on next scheduled day
+  ✗ Could not schedule: Chiropractor Adjustment - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Apple Cider Vinegar - Resume on next scheduled day
+  ✗ Could not schedule: Health Coach Check-in - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Jump Rope Session - Resume on next scheduled day
+  ✗ Could not schedule: Light Recovery Walk - Resume on next scheduled day
+  ✗ Could not schedule: Stair Intervals - Resume on next scheduled day
+  ✗ Could not schedule: Mid-Day Walk - Resume on next scheduled day
+  ✗ Could not schedule: Grip Strength Training - Resume on next scheduled day
+  ✗ Could not schedule: Infrared Sauna Session - Reschedule within the week if possible
+  ✗ Could not schedule: Cold Plunge/Ice Bath - Reschedule within the week if possible
+  ✗ Could not schedule: Foam Rolling Session - Resume on next scheduled day
+  ✗ Could not schedule: Plank Challenge - Resume on next scheduled day
+  ✗ Could not schedule: Deep Tissue Massage - Reschedule within the week if possible
+  ✗ Could not schedule: Wall Sits - Resume on next scheduled day
+  ✗ Could not schedule: Acupuncture Session - Reschedule within the week if possible
+  ✗ Could not schedule: Standing Desk Breaks - Resume on next scheduled day
+  ✗ Could not schedule: Neck and Shoulder Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Red Light Therapy - Reschedule within the week if possible
+  ✗ Could not schedule: Hip Flexor Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Compression Therapy - Reschedule within the week if possible
+  ✗ Could not schedule: Float Tank Session - Reschedule within the week if possible
+  ✗ Could not schedule: Ankle Mobility Drills - Resume on next scheduled day
+  ✗ Could not schedule: Hyperbaric Oxygen Therapy - Reschedule within the week if possible
+  ✗ Could not schedule: Cryotherapy Chamber - Reschedule within the week if possible
+  ✗ Could not schedule: Evening Wind-Down Routine - Resume on next scheduled day
+  ✗ Could not schedule: Wrist Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Sound Bath/Meditation - Reschedule within the week if possible
+  ✗ Could not schedule: Breathwork Session - Reschedule within the week if possible
+  ✗ Could not schedule: Meditation Session - Resume on next scheduled day
+  ✗ Could not schedule: Progressive Muscle Relaxation - Resume on next scheduled day
+  ✗ Could not schedule: Posture Check-ins - Resume on next scheduled day
+  ✗ Could not schedule: Deep Breathing Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Box Breathing - Resume on next scheduled day
+  ✗ Could not schedule: Cold Shower Ending - Resume on next scheduled day
+  ✗ Could not schedule: Gratitude Journaling - Resume on next scheduled day
+  ✗ Could not schedule: Brain Training Games - Resume on next scheduled day
+  ✗ Could not schedule: Sleep Hygiene Review - Resume on next scheduled day
+  ✗ Could not schedule: Social Connection Time - Resume on next scheduled day
+  ✗ Could not schedule: Nature Exposure - Resume on next scheduled day
+  ✗ Could not schedule: Weekly Progress Photos - Resume on next scheduled day
+  ✗ Could not schedule: Weekly Weigh-in - Resume on next scheduled day
+
+--- Scheduling for 2026-01-20 (Tue) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 07:20-07:50
+  ✓ Scheduled: Afternoon Healthy Snack at 07:50-08:00
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: High-Intensity Interval Training at 08:00-08:30
+  ✓ Scheduled: Evening Supplement at 17:50-17:55
+  ✓ Scheduled: Hydration Check at 08:30-08:35
+  ✓ Scheduled: Probiotics Intake at 08:35-08:40
+  ✓ Scheduled: Yoga Flow Session at 17:55-18:40
+  ✓ Scheduled: Collagen Supplement at 08:40-08:45
+  ✓ Scheduled: Swimming Laps at 18:40-19:20
+  ✓ Scheduled: Electrolyte Drink at 08:45-08:50
+  ✓ Scheduled: Green Smoothie at 08:50-09:00
+  ✓ Scheduled: Eye Exercise Routine at 19:20-19:30
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✓ Scheduled: Omega-3 Rich Fish Meal at 19:30-20:00
+  ✓ Scheduled: Mobility and Stretching at 20:00-20:15
+  ✓ Scheduled: Vitamin B12 Supplement at 20:15-20:20
+  ✓ Scheduled: Evening Protein Snack at 20:20-20:30
+  ✓ Scheduled: Vitamin C Intake at 20:30-20:35
+  ✓ Scheduled: Fiber Supplement at 20:35-20:40
+  ✓ Scheduled: Apple Cider Vinegar at 20:40-20:45
+  ✓ Scheduled: Light Recovery Walk at 20:45-21:05
+  ✓ Scheduled: Mid-Day Walk at 21:05-21:15
+  ✓ Scheduled: Foam Rolling Session at 21:15-21:30
+  ✓ Scheduled: Plank Challenge at 21:30-21:35
+  ✓ Scheduled: Wall Sits at 21:35-21:40
+  ✓ Scheduled: Standing Desk Breaks at 21:40-21:45
+  ✓ Scheduled: Neck and Shoulder Stretches at 21:45-21:55
+  ✗ Could not schedule: Hip Flexor Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Ankle Mobility Drills - Resume on next scheduled day
+  ✗ Could not schedule: Evening Wind-Down Routine - Resume on next scheduled day
+  ✓ Scheduled: Wrist Exercises at 21:55-22:00
+  ✗ Could not schedule: Breathwork Session - Reschedule within the week if possible
+  ✗ Could not schedule: Meditation Session - Resume on next scheduled day
+  ✗ Could not schedule: Progressive Muscle Relaxation - Resume on next scheduled day
+  ✗ Could not schedule: Deep Breathing Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Box Breathing - Resume on next scheduled day
+  ✗ Could not schedule: Cold Shower Ending - Resume on next scheduled day
+  ✗ Could not schedule: Gratitude Journaling - Resume on next scheduled day
+  ✗ Could not schedule: Brain Training Games - Resume on next scheduled day
+  ✗ Could not schedule: Magnesium Bath Soak - Resume on next scheduled day
+
+--- Scheduling for 2026-01-21 (Wed) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 07:20-07:50
+  ✓ Scheduled: Afternoon Healthy Snack at 07:50-08:00
+  ✓ Scheduled: Morning Zone 2 Cardio Run at 08:00-08:45
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: Evening Supplement at 17:50-17:55
+  ✓ Scheduled: Strength Training - Upper Body at 17:55-18:55
+  ✓ Scheduled: Hydration Check at 08:45-08:50
+  ✓ Scheduled: Strength Training - Lower Body at 18:55-19:55
+  ✓ Scheduled: Probiotics Intake at 08:50-08:55
+  ✓ Scheduled: Collagen Supplement at 08:55-09:00
+  ✓ Scheduled: Electrolyte Drink at 19:55-20:00
+  ✓ Scheduled: Cycling Session at 20:00-21:00
+  ✓ Scheduled: Green Smoothie at 21:00-21:10
+  ✓ Scheduled: Eye Exercise Routine at 21:10-21:20
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✓ Scheduled: Core Stability Workout at 21:20-21:40
+  ✓ Scheduled: Mobility and Stretching at 21:40-21:55
+  ✗ Could not schedule: Walking Meditation - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Resistance Band Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Balance Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Rowing Machine Workout - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Pilates Session - Add extra cardio to next session if skipped
+  ✓ Scheduled: Vitamin B12 Supplement at 21:55-22:00
+  ✗ Could not schedule: Stair Climbing - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Evening Protein Snack - Resume on next scheduled day
+  ✗ Could not schedule: Kettlebell Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Tai Chi Practice - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Vitamin C Intake - Resume on next scheduled day
+  ✗ Could not schedule: Boxing/Kickboxing - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Functional Movement Screen - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Fiber Supplement - Resume on next scheduled day
+  ✗ Could not schedule: Apple Cider Vinegar - Resume on next scheduled day
+  ✗ Could not schedule: Jump Rope Session - Resume on next scheduled day
+  ✗ Could not schedule: Light Recovery Walk - Resume on next scheduled day
+  ✗ Could not schedule: Stair Intervals - Resume on next scheduled day
+  ✗ Could not schedule: Mid-Day Walk - Resume on next scheduled day
+  ✗ Could not schedule: Grip Strength Training - Resume on next scheduled day
+  ✗ Could not schedule: Infrared Sauna Session - Reschedule within the week if possible
+  ✗ Could not schedule: Cold Plunge/Ice Bath - Reschedule within the week if possible
+  ✗ Could not schedule: Foam Rolling Session - Resume on next scheduled day
+  ✗ Could not schedule: Plank Challenge - Resume on next scheduled day
+  ✗ Could not schedule: Wall Sits - Resume on next scheduled day
+  ✗ Could not schedule: Standing Desk Breaks - Resume on next scheduled day
+  ✗ Could not schedule: Neck and Shoulder Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Hip Flexor Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Ankle Mobility Drills - Resume on next scheduled day
+  ✗ Could not schedule: Evening Wind-Down Routine - Resume on next scheduled day
+  ✗ Could not schedule: Wrist Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Breathwork Session - Reschedule within the week if possible
+  ✗ Could not schedule: Meditation Session - Resume on next scheduled day
+  ✗ Could not schedule: Progressive Muscle Relaxation - Resume on next scheduled day
+  ✗ Could not schedule: Posture Check-ins - Resume on next scheduled day
+  ✗ Could not schedule: Deep Breathing Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Box Breathing - Resume on next scheduled day
+  ✗ Could not schedule: Cold Shower Ending - Resume on next scheduled day
+  ✗ Could not schedule: Gratitude Journaling - Resume on next scheduled day
+  ✗ Could not schedule: Brain Training Games - Resume on next scheduled day
+
+--- Scheduling for 2026-01-22 (Thu) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 07:20-07:50
+  ✓ Scheduled: Afternoon Healthy Snack at 07:50-08:00
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: Evening Supplement at 17:50-17:55
+  ✓ Scheduled: Hydration Check at 08:00-08:05
+  ✓ Scheduled: Probiotics Intake at 08:05-08:10
+  ✓ Scheduled: Collagen Supplement at 08:10-08:15
+  ✓ Scheduled: Electrolyte Drink at 08:15-08:20
+  ✓ Scheduled: Green Smoothie at 08:20-08:30
+  ✓ Scheduled: Eye Exercise Routine at 08:30-08:40
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✓ Scheduled: Mobility and Stretching at 08:40-08:55
+  ✓ Scheduled: Meal Prep Sunday at 17:55-19:55
+  ✗ Could not schedule: Physical Therapy Session - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Mental Health Check-in - Reschedule appointment within 2 weeks
+  ✓ Scheduled: Vitamin B12 Supplement at 08:55-09:00
+  ✓ Scheduled: Evening Protein Snack at 19:55-20:05
+  ✓ Scheduled: Vitamin C Intake at 20:05-20:10
+  ✓ Scheduled: Fiber Supplement at 20:10-20:15
+  ✗ Could not schedule: Chiropractor Adjustment - Reschedule appointment within 2 weeks
+  ✓ Scheduled: Apple Cider Vinegar at 20:15-20:20
+  ✗ Could not schedule: Health Coach Check-in - Reschedule appointment within 2 weeks
+  ✓ Scheduled: Light Recovery Walk at 20:20-20:40
+  ✓ Scheduled: Mid-Day Walk at 20:40-20:50
+  ✓ Scheduled: Foam Rolling Session at 20:50-21:05
+  ✓ Scheduled: Contrast Therapy at 21:05-21:50
+  ✓ Scheduled: Plank Challenge at 21:50-21:55
+  ✗ Could not schedule: Deep Tissue Massage - Reschedule within the week if possible
+  ✓ Scheduled: Wall Sits at 21:55-22:00
+  ✗ Could not schedule: Acupuncture Session - Reschedule within the week if possible
+  ✗ Could not schedule: Standing Desk Breaks - Resume on next scheduled day
+  ✗ Could not schedule: Neck and Shoulder Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Red Light Therapy - Reschedule within the week if possible
+  ✗ Could not schedule: Hip Flexor Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Compression Therapy - Reschedule within the week if possible
+  ✗ Could not schedule: Float Tank Session - Reschedule within the week if possible
+  ✗ Could not schedule: Ankle Mobility Drills - Resume on next scheduled day
+  ✗ Could not schedule: Hyperbaric Oxygen Therapy - Reschedule within the week if possible
+  ✗ Could not schedule: Cryotherapy Chamber - Reschedule within the week if possible
+  ✗ Could not schedule: Evening Wind-Down Routine - Resume on next scheduled day
+  ✗ Could not schedule: Wrist Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Sound Bath/Meditation - Reschedule within the week if possible
+  ✗ Could not schedule: Breathwork Session - Reschedule within the week if possible
+  ✗ Could not schedule: Meditation Session - Resume on next scheduled day
+  ✗ Could not schedule: Progressive Muscle Relaxation - Resume on next scheduled day
+  ✗ Could not schedule: Deep Breathing Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Box Breathing - Resume on next scheduled day
+  ✗ Could not schedule: Cold Shower Ending - Resume on next scheduled day
+  ✗ Could not schedule: Gratitude Journaling - Resume on next scheduled day
+  ✗ Could not schedule: Brain Training Games - Resume on next scheduled day
+  ✗ Could not schedule: Sleep Hygiene Review - Resume on next scheduled day
+  ✗ Could not schedule: Social Connection Time - Resume on next scheduled day
+  ✗ Could not schedule: Nature Exposure - Resume on next scheduled day
+  ✗ Could not schedule: Weekly Progress Photos - Resume on next scheduled day
+  ✗ Could not schedule: Weekly Weigh-in - Resume on next scheduled day
+
+--- Scheduling for 2026-01-23 (Fri) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 07:20-07:50
+  ✓ Scheduled: Afternoon Healthy Snack at 07:50-08:00
+  ✓ Scheduled: Morning Zone 2 Cardio Run at 08:00-08:45
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: High-Intensity Interval Training at 17:50-18:20
+  ✓ Scheduled: Evening Supplement at 18:20-18:25
+  ✓ Scheduled: Strength Training - Upper Body at 18:25-19:25
+  ✓ Scheduled: Hydration Check at 08:45-08:50
+  ✓ Scheduled: Strength Training - Lower Body at 19:25-20:25
+  ✓ Scheduled: Probiotics Intake at 08:50-08:55
+  ✓ Scheduled: Yoga Flow Session at 20:25-21:10
+  ✓ Scheduled: Collagen Supplement at 08:55-09:00
+  ✓ Scheduled: Swimming Laps at 21:10-21:50
+  ✓ Scheduled: Electrolyte Drink at 21:50-21:55
+  ✗ Could not schedule: Cycling Session - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Green Smoothie - Ensure adequate nutrition in next meal
+  ✗ Could not schedule: Eye Exercise Routine - Add extra cardio to next session if skipped
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✗ Could not schedule: Core Stability Workout - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Omega-3 Rich Fish Meal - Ensure adequate nutrition in next meal
+  ✗ Could not schedule: Mobility and Stretching - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Walking Meditation - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Resistance Band Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Balance Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Rowing Machine Workout - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Pilates Session - Add extra cardio to next session if skipped
+  ✓ Scheduled: Vitamin B12 Supplement at 21:55-22:00
+  ✗ Could not schedule: Stair Climbing - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Evening Protein Snack - Resume on next scheduled day
+  ✗ Could not schedule: Kettlebell Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Tai Chi Practice - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Vitamin C Intake - Resume on next scheduled day
+  ✗ Could not schedule: Boxing/Kickboxing - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Functional Movement Screen - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Fiber Supplement - Resume on next scheduled day
+  ✗ Could not schedule: Apple Cider Vinegar - Resume on next scheduled day
+  ✗ Could not schedule: Jump Rope Session - Resume on next scheduled day
+  ✗ Could not schedule: Light Recovery Walk - Resume on next scheduled day
+  ✗ Could not schedule: Stair Intervals - Resume on next scheduled day
+  ✗ Could not schedule: Mid-Day Walk - Resume on next scheduled day
+  ✗ Could not schedule: Grip Strength Training - Resume on next scheduled day
+  ✗ Could not schedule: Infrared Sauna Session - Reschedule within the week if possible
+  ✗ Could not schedule: Cold Plunge/Ice Bath - Reschedule within the week if possible
+  ✗ Could not schedule: Foam Rolling Session - Resume on next scheduled day
+  ✗ Could not schedule: Plank Challenge - Resume on next scheduled day
+  ✗ Could not schedule: Wall Sits - Resume on next scheduled day
+  ✗ Could not schedule: Standing Desk Breaks - Resume on next scheduled day
+  ✗ Could not schedule: Neck and Shoulder Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Hip Flexor Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Ankle Mobility Drills - Resume on next scheduled day
+  ✗ Could not schedule: Evening Wind-Down Routine - Resume on next scheduled day
+  ✗ Could not schedule: Wrist Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Breathwork Session - Reschedule within the week if possible
+  ✗ Could not schedule: Meditation Session - Resume on next scheduled day
+  ✗ Could not schedule: Progressive Muscle Relaxation - Resume on next scheduled day
+  ✗ Could not schedule: Posture Check-ins - Resume on next scheduled day
+  ✗ Could not schedule: Deep Breathing Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Box Breathing - Resume on next scheduled day
+  ✗ Could not schedule: Cold Shower Ending - Resume on next scheduled day
+  ✗ Could not schedule: Gratitude Journaling - Resume on next scheduled day
+  ✗ Could not schedule: Brain Training Games - Resume on next scheduled day
+  ✗ Could not schedule: Magnesium Bath Soak - Resume on next scheduled day
+
+--- Scheduling for 2026-01-24 (Sat) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 12:00-12:30
+  ✓ Scheduled: Afternoon Healthy Snack at 12:30-12:40
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: Evening Supplement at 17:50-17:55
+  ✓ Scheduled: Hydration Check at 07:20-07:25
+  ✓ Scheduled: Probiotics Intake at 07:25-07:30
+  ✓ Scheduled: Collagen Supplement at 07:30-07:35
+  ✓ Scheduled: Electrolyte Drink at 07:35-07:40
+  ✓ Scheduled: Green Smoothie at 07:40-07:50
+  ✓ Scheduled: Eye Exercise Routine at 07:50-08:00
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✓ Scheduled: Mobility and Stretching at 08:00-08:15
+  ✓ Scheduled: Vitamin B12 Supplement at 08:15-08:20
+  ✓ Scheduled: Evening Protein Snack at 17:55-18:05
+  ✓ Scheduled: Vitamin C Intake at 08:20-08:25
+  ✓ Scheduled: Fiber Supplement at 08:25-08:30
+  ✓ Scheduled: Apple Cider Vinegar at 08:30-08:35
+  ✓ Scheduled: Light Recovery Walk at 08:35-08:55
+  ✓ Scheduled: Mid-Day Walk at 08:55-09:05
+  ✓ Scheduled: Foam Rolling Session at 09:05-09:20
+  ✓ Scheduled: Plank Challenge at 09:20-09:25
+  ✓ Scheduled: Wall Sits at 09:25-09:30
+  ✓ Scheduled: Standing Desk Breaks at 09:30-09:35
+  ✓ Scheduled: Neck and Shoulder Stretches at 09:35-09:45
+  ✓ Scheduled: Hip Flexor Stretches at 09:45-09:55
+  ✓ Scheduled: Ankle Mobility Drills at 09:55-10:05
+  ✓ Scheduled: Evening Wind-Down Routine at 18:05-18:20
+  ✓ Scheduled: Wrist Exercises at 10:05-10:10
+  ✓ Scheduled: Breathwork Session at 12:40-13:10
+  ✓ Scheduled: Meditation Session at 10:10-10:25
+  ✓ Scheduled: Progressive Muscle Relaxation at 10:25-10:40
+  ✓ Scheduled: Deep Breathing Exercises at 10:40-10:50
+  ✓ Scheduled: Box Breathing at 10:50-11:00
+  ✓ Scheduled: Cold Shower Ending at 11:00-11:05
+  ✓ Scheduled: Gratitude Journaling at 11:05-11:15
+  ✓ Scheduled: Brain Training Games at 11:15-11:30
+
+--- Scheduling for 2026-01-25 (Sun) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 12:00-12:30
+  ✓ Scheduled: Afternoon Healthy Snack at 12:30-12:40
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: Evening Supplement at 17:50-17:55
+  ✓ Scheduled: Hydration Check at 07:20-07:25
+  ✓ Scheduled: Probiotics Intake at 07:25-07:30
+  ✓ Scheduled: Collagen Supplement at 07:30-07:35
+  ✓ Scheduled: Electrolyte Drink at 07:35-07:40
+  ✓ Scheduled: Green Smoothie at 07:40-07:50
+  ✓ Scheduled: Eye Exercise Routine at 07:50-08:00
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✓ Scheduled: Mobility and Stretching at 08:00-08:15
+  ✓ Scheduled: Vitamin B12 Supplement at 08:15-08:20
+  ✓ Scheduled: Evening Protein Snack at 17:55-18:05
+  ✓ Scheduled: Vitamin C Intake at 08:20-08:25
+  ✓ Scheduled: Fiber Supplement at 08:25-08:30
+  ✓ Scheduled: Apple Cider Vinegar at 08:30-08:35
+  ✓ Scheduled: Light Recovery Walk at 08:35-08:55
+  ✓ Scheduled: Mid-Day Walk at 08:55-09:05
+  ✓ Scheduled: Foam Rolling Session at 09:05-09:20
+  ✓ Scheduled: Plank Challenge at 09:20-09:25
+  ✓ Scheduled: Wall Sits at 09:25-09:30
+  ✓ Scheduled: Standing Desk Breaks at 09:30-09:35
+  ✓ Scheduled: Neck and Shoulder Stretches at 09:35-09:45
+  ✓ Scheduled: Hip Flexor Stretches at 09:45-09:55
+  ✓ Scheduled: Ankle Mobility Drills at 09:55-10:05
+  ✓ Scheduled: Evening Wind-Down Routine at 18:05-18:20
+  ✓ Scheduled: Wrist Exercises at 10:05-10:10
+  ✓ Scheduled: Breathwork Session at 12:40-13:10
+  ✓ Scheduled: Meditation Session at 10:10-10:25
+  ✓ Scheduled: Progressive Muscle Relaxation at 10:25-10:40
+  ✓ Scheduled: Deep Breathing Exercises at 10:40-10:50
+  ✓ Scheduled: Box Breathing at 10:50-11:00
+  ✓ Scheduled: Cold Shower Ending at 11:00-11:05
+  ✓ Scheduled: Gratitude Journaling at 11:05-11:15
+  ✓ Scheduled: Brain Training Games at 11:15-11:30
+
+--- Scheduling for 2026-01-26 (Mon) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 07:20-07:50
+  ✓ Scheduled: Afternoon Healthy Snack at 07:50-08:00
+  ✓ Scheduled: Morning Zone 2 Cardio Run at 08:00-08:45
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: Evening Supplement at 17:50-17:55
+  ✓ Scheduled: Strength Training - Upper Body at 17:55-18:55
+  ✓ Scheduled: Hydration Check at 08:45-08:50
+  ✓ Scheduled: Strength Training - Lower Body at 18:55-19:55
+  ✓ Scheduled: Probiotics Intake at 08:50-08:55
+  ✓ Scheduled: Collagen Supplement at 08:55-09:00
+  ✓ Scheduled: Electrolyte Drink at 19:55-20:00
+  ✓ Scheduled: Cycling Session at 20:00-21:00
+  ✓ Scheduled: Green Smoothie at 21:00-21:10
+  ✓ Scheduled: Eye Exercise Routine at 21:10-21:20
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✓ Scheduled: Core Stability Workout at 21:20-21:40
+  ✓ Scheduled: Mobility and Stretching at 21:40-21:55
+  ✗ Could not schedule: Walking Meditation - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Resistance Band Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Balance Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Physical Therapy Session - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Rowing Machine Workout - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Mental Health Check-in - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Pilates Session - Add extra cardio to next session if skipped
+  ✓ Scheduled: Vitamin B12 Supplement at 21:55-22:00
+  ✗ Could not schedule: Stair Climbing - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Evening Protein Snack - Resume on next scheduled day
+  ✗ Could not schedule: Kettlebell Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Tai Chi Practice - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Vitamin C Intake - Resume on next scheduled day
+  ✗ Could not schedule: Boxing/Kickboxing - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Functional Movement Screen - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Fiber Supplement - Resume on next scheduled day
+  ✗ Could not schedule: Chiropractor Adjustment - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Apple Cider Vinegar - Resume on next scheduled day
+  ✗ Could not schedule: Health Coach Check-in - Reschedule appointment within 2 weeks
+  ✗ Could not schedule: Jump Rope Session - Resume on next scheduled day
+  ✗ Could not schedule: Light Recovery Walk - Resume on next scheduled day
+  ✗ Could not schedule: Stair Intervals - Resume on next scheduled day
+  ✗ Could not schedule: Mid-Day Walk - Resume on next scheduled day
+  ✗ Could not schedule: Grip Strength Training - Resume on next scheduled day
+  ✗ Could not schedule: Infrared Sauna Session - Reschedule within the week if possible
+  ✗ Could not schedule: Cold Plunge/Ice Bath - Reschedule within the week if possible
+  ✗ Could not schedule: Foam Rolling Session - Resume on next scheduled day
+  ✗ Could not schedule: Plank Challenge - Resume on next scheduled day
+  ✗ Could not schedule: Deep Tissue Massage - Reschedule within the week if possible
+  ✗ Could not schedule: Wall Sits - Resume on next scheduled day
+  ✗ Could not schedule: Acupuncture Session - Reschedule within the week if possible
+  ✗ Could not schedule: Standing Desk Breaks - Resume on next scheduled day
+  ✗ Could not schedule: Neck and Shoulder Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Red Light Therapy - Reschedule within the week if possible
+  ✗ Could not schedule: Hip Flexor Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Compression Therapy - Reschedule within the week if possible
+  ✗ Could not schedule: Float Tank Session - Reschedule within the week if possible
+  ✗ Could not schedule: Ankle Mobility Drills - Resume on next scheduled day
+  ✗ Could not schedule: Hyperbaric Oxygen Therapy - Reschedule within the week if possible
+  ✗ Could not schedule: Cryotherapy Chamber - Reschedule within the week if possible
+  ✗ Could not schedule: Evening Wind-Down Routine - Resume on next scheduled day
+  ✗ Could not schedule: Wrist Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Sound Bath/Meditation - Reschedule within the week if possible
+  ✗ Could not schedule: Breathwork Session - Reschedule within the week if possible
+  ✗ Could not schedule: Meditation Session - Resume on next scheduled day
+  ✗ Could not schedule: Progressive Muscle Relaxation - Resume on next scheduled day
+  ✗ Could not schedule: Posture Check-ins - Resume on next scheduled day
+  ✗ Could not schedule: Deep Breathing Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Box Breathing - Resume on next scheduled day
+  ✗ Could not schedule: Cold Shower Ending - Resume on next scheduled day
+  ✗ Could not schedule: Gratitude Journaling - Resume on next scheduled day
+  ✗ Could not schedule: Brain Training Games - Resume on next scheduled day
+  ✗ Could not schedule: Sleep Hygiene Review - Resume on next scheduled day
+  ✗ Could not schedule: Social Connection Time - Resume on next scheduled day
+  ✗ Could not schedule: Nature Exposure - Resume on next scheduled day
+  ✗ Could not schedule: Weekly Progress Photos - Resume on next scheduled day
+  ✗ Could not schedule: Weekly Weigh-in - Resume on next scheduled day
+
+--- Scheduling for 2026-01-27 (Tue) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 07:20-07:50
+  ✓ Scheduled: Afternoon Healthy Snack at 07:50-08:00
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: High-Intensity Interval Training at 08:00-08:30
+  ✓ Scheduled: Evening Supplement at 17:50-17:55
+  ✓ Scheduled: Hydration Check at 08:30-08:35
+  ✓ Scheduled: Probiotics Intake at 08:35-08:40
+  ✓ Scheduled: Yoga Flow Session at 17:55-18:40
+  ✓ Scheduled: Collagen Supplement at 08:40-08:45
+  ✓ Scheduled: Swimming Laps at 18:40-19:20
+  ✓ Scheduled: Electrolyte Drink at 08:45-08:50
+  ✓ Scheduled: Green Smoothie at 08:50-09:00
+  ✓ Scheduled: Eye Exercise Routine at 19:20-19:30
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✓ Scheduled: Omega-3 Rich Fish Meal at 19:30-20:00
+  ✓ Scheduled: Mobility and Stretching at 20:00-20:15
+  ✓ Scheduled: Vitamin B12 Supplement at 20:15-20:20
+  ✓ Scheduled: Evening Protein Snack at 20:20-20:30
+  ✓ Scheduled: Vitamin C Intake at 20:30-20:35
+  ✓ Scheduled: Fiber Supplement at 20:35-20:40
+  ✓ Scheduled: Apple Cider Vinegar at 20:40-20:45
+  ✓ Scheduled: Light Recovery Walk at 20:45-21:05
+  ✓ Scheduled: Mid-Day Walk at 21:05-21:15
+  ✓ Scheduled: Foam Rolling Session at 21:15-21:30
+  ✓ Scheduled: Plank Challenge at 21:30-21:35
+  ✓ Scheduled: Wall Sits at 21:35-21:40
+  ✓ Scheduled: Standing Desk Breaks at 21:40-21:45
+  ✓ Scheduled: Neck and Shoulder Stretches at 21:45-21:55
+  ✗ Could not schedule: Hip Flexor Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Ankle Mobility Drills - Resume on next scheduled day
+  ✗ Could not schedule: Evening Wind-Down Routine - Resume on next scheduled day
+  ✓ Scheduled: Wrist Exercises at 21:55-22:00
+  ✗ Could not schedule: Breathwork Session - Reschedule within the week if possible
+  ✗ Could not schedule: Meditation Session - Resume on next scheduled day
+  ✗ Could not schedule: Progressive Muscle Relaxation - Resume on next scheduled day
+  ✗ Could not schedule: Deep Breathing Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Box Breathing - Resume on next scheduled day
+  ✗ Could not schedule: Cold Shower Ending - Resume on next scheduled day
+  ✗ Could not schedule: Gratitude Journaling - Resume on next scheduled day
+  ✗ Could not schedule: Brain Training Games - Resume on next scheduled day
+  ✗ Could not schedule: Magnesium Bath Soak - Resume on next scheduled day
+
+--- Scheduling for 2026-01-28 (Wed) ---
+  ✓ Scheduled: Morning Blood Pressure Medication at 06:00-06:05
+  ✓ Scheduled: Thyroid Medication at 06:05-06:10
+  ✓ Scheduled: Metformin with Dinner at 17:00-17:05
+  ✓ Scheduled: Statin Before Bed at 17:05-17:10
+  ✓ Scheduled: Inhaler Use at 06:10-06:15
+  ✓ Scheduled: Blood Glucose Check at 06:15-06:20
+  ✓ Scheduled: Allergy Medication at 06:20-06:25
+  ✓ Scheduled: Pain Management Medication at 06:25-06:30
+  ✓ Scheduled: Blood Pressure Log at 06:30-06:35
+  ✓ Scheduled: Protein-Rich Breakfast at 06:35-06:55
+  ✓ Scheduled: Mid-Morning Supplement Stack at 06:55-07:00
+  ✓ Scheduled: Pre-Workout Nutrition at 07:00-07:10
+  ✓ Scheduled: Post-Workout Recovery Shake at 07:10-07:20
+  ✓ Scheduled: Balanced Lunch at 07:20-07:50
+  ✓ Scheduled: Afternoon Healthy Snack at 07:50-08:00
+  ✓ Scheduled: Morning Zone 2 Cardio Run at 08:00-08:45
+  ✓ Scheduled: Dinner - High Fiber at 17:10-17:50
+  ✓ Scheduled: Evening Supplement at 17:50-17:55
+  ✓ Scheduled: Strength Training - Upper Body at 17:55-18:55
+  ✓ Scheduled: Hydration Check at 08:45-08:50
+  ✓ Scheduled: Strength Training - Lower Body at 18:55-19:55
+  ✓ Scheduled: Probiotics Intake at 08:50-08:55
+  ✓ Scheduled: Collagen Supplement at 08:55-09:00
+  ✓ Scheduled: Electrolyte Drink at 19:55-20:00
+  ✓ Scheduled: Cycling Session at 20:00-21:00
+  ✓ Scheduled: Green Smoothie at 21:00-21:10
+  ✓ Scheduled: Eye Exercise Routine at 21:10-21:20
+  ✓ Scheduled: Intermittent Fasting Window at 06:00-06:00
+  ✓ Scheduled: Core Stability Workout at 21:20-21:40
+  ✓ Scheduled: Mobility and Stretching at 21:40-21:55
+  ✗ Could not schedule: Walking Meditation - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Resistance Band Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Balance Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Rowing Machine Workout - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Pilates Session - Add extra cardio to next session if skipped
+  ✓ Scheduled: Vitamin B12 Supplement at 21:55-22:00
+  ✗ Could not schedule: Stair Climbing - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Evening Protein Snack - Resume on next scheduled day
+  ✗ Could not schedule: Kettlebell Training - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Tai Chi Practice - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Vitamin C Intake - Resume on next scheduled day
+  ✗ Could not schedule: Boxing/Kickboxing - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Functional Movement Screen - Add extra cardio to next session if skipped
+  ✗ Could not schedule: Fiber Supplement - Resume on next scheduled day
+  ✗ Could not schedule: Apple Cider Vinegar - Resume on next scheduled day
+  ✗ Could not schedule: Jump Rope Session - Resume on next scheduled day
+  ✗ Could not schedule: Light Recovery Walk - Resume on next scheduled day
+  ✗ Could not schedule: Stair Intervals - Resume on next scheduled day
+  ✗ Could not schedule: Mid-Day Walk - Resume on next scheduled day
+  ✗ Could not schedule: Grip Strength Training - Resume on next scheduled day
+  ✗ Could not schedule: Infrared Sauna Session - Reschedule within the week if possible
+  ✗ Could not schedule: Cold Plunge/Ice Bath - Reschedule within the week if possible
+  ✗ Could not schedule: Foam Rolling Session - Resume on next scheduled day
+  ✗ Could not schedule: Plank Challenge - Resume on next scheduled day
+  ✗ Could not schedule: Wall Sits - Resume on next scheduled day
+  ✗ Could not schedule: Standing Desk Breaks - Resume on next scheduled day
+  ✗ Could not schedule: Neck and Shoulder Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Hip Flexor Stretches - Resume on next scheduled day
+  ✗ Could not schedule: Ankle Mobility Drills - Resume on next scheduled day
+  ✗ Could not schedule: Evening Wind-Down Routine - Resume on next scheduled day
+  ✗ Could not schedule: Wrist Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Breathwork Session - Reschedule within the week if possible
+  ✗ Could not schedule: Meditation Session - Resume on next scheduled day
+  ✗ Could not schedule: Progressive Muscle Relaxation - Resume on next scheduled day
+  ✗ Could not schedule: Posture Check-ins - Resume on next scheduled day
+  ✗ Could not schedule: Deep Breathing Exercises - Resume on next scheduled day
+  ✗ Could not schedule: Box Breathing - Resume on next scheduled day
+  ✗ Could not schedule: Cold Shower Ending - Resume on next scheduled day
+  ✗ Could not schedule: Gratitude Journaling - Resume on next scheduled day
+  ✗ Could not schedule: Brain Training Games - Resume on next scheduled day
+
+=== Schedule generation complete: 536 activities scheduled ===

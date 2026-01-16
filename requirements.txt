@@ -1,0 +1,9 @@
+# Resource Allocator - Health Activity Scheduler
+# Dependencies for the project
+
+# Core dependencies
+streamlit>=1.53.0
+pandas>=2.3.0
+numpy>=2.4.0
+
+# Python 3.7+ recommended

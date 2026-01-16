@@ -1,0 +1,5367 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Resource Allocator//Health Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Health Schedule
+BEGIN:VEVENT
+UID:event-0-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T060000
+DTEND:20260115T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-1-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T060500
+DTEND:20260115T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T170000
+DTEND:20260115T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-3-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T170500
+DTEND:20260115T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-4-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T061000
+DTEND:20260115T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-5-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T061500
+DTEND:20260115T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-6-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T062000
+DTEND:20260115T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-7-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T062500
+DTEND:20260115T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-8-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T063000
+DTEND:20260115T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-9-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T063500
+DTEND:20260115T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-10-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T065500
+DTEND:20260115T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-11-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T070000
+DTEND:20260115T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-12-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T071000
+DTEND:20260115T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-13-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T072000
+DTEND:20260115T075000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-14-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T075000
+DTEND:20260115T080000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-15-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T171000
+DTEND:20260115T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-16-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T175000
+DTEND:20260115T175500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-17-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T080000
+DTEND:20260115T080500
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-18-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T080500
+DTEND:20260115T081000
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-19-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T081000
+DTEND:20260115T081500
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-20-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T081500
+DTEND:20260115T082000
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-21-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T082000
+DTEND:20260115T083000
+SUMMARY:🥗 Green Smoothie
+DESCRIPTION:Spinach, kale, berries, protein powder\n\nFacilitator: Self\n\nMetrics: vegetable_servings, antioxidant_score
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-22-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T083000
+DTEND:20260115T084000
+SUMMARY:🏃 Eye Exercise Routine
+DESCRIPTION:Bates method exercises for eye health - 20-20-20 rule compliance\n\nFacilitator: Self\n\nMetrics: completion, eye_strain_level
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-23-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T060000
+DTEND:20260115T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-24-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T084000
+DTEND:20260115T085500
+SUMMARY:🏃 Mobility and Stretching
+DESCRIPTION:Dynamic and static stretching routine\n\nFacilitator: Self\n\nMetrics: flexibility_assessment
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-25-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T175500
+DTEND:20260115T195500
+SUMMARY:🥗 Meal Prep Sunday
+DESCRIPTION:Prepare healthy meals for week\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-26-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T085500
+DTEND:20260115T090000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-27-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T195500
+DTEND:20260115T200500
+SUMMARY:🥗 Evening Protein Snack
+DESCRIPTION:Casein or cottage cheese before bed\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-28-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T200500
+DTEND:20260115T201000
+SUMMARY:🥗 Vitamin C Intake
+DESCRIPTION:Citrus or supplement for immunity\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-29-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T201000
+DTEND:20260115T201500
+SUMMARY:🥗 Fiber Supplement
+DESCRIPTION:Psyllium husk for digestive health\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-30-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T201500
+DTEND:20260115T202000
+SUMMARY:🥗 Apple Cider Vinegar
+DESCRIPTION:Diluted ACV before meals\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-31-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T202000
+DTEND:20260115T204000
+SUMMARY:🏃 Light Recovery Walk
+DESCRIPTION:Easy 20-min walk for active recovery\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-32-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T204000
+DTEND:20260115T205000
+SUMMARY:🏃 Mid-Day Walk
+DESCRIPTION:10-minute walk after lunch\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-33-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T205000
+DTEND:20260115T210500
+SUMMARY:🏃 Foam Rolling Session
+DESCRIPTION:Self-myofascial release\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-34-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T210500
+DTEND:20260115T215000
+SUMMARY:🧘 Contrast Therapy
+DESCRIPTION:Alternating hot sauna and cold plunge\n\nFacilitator: Spa Staff\n\nMetrics: cycles_completed, recovery_feeling
+LOCATION:Wellness Center
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-35-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T215000
+DTEND:20260115T215500
+SUMMARY:🏃 Plank Challenge
+DESCRIPTION:Progressive plank hold times\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-36-20260115@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260115T215500
+DTEND:20260115T220000
+SUMMARY:🏃 Wall Sits
+DESCRIPTION:Isometric leg strengthening\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-37-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T060000
+DTEND:20260116T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-38-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T060500
+DTEND:20260116T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-39-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T170000
+DTEND:20260116T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-40-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T170500
+DTEND:20260116T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-41-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T061000
+DTEND:20260116T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-42-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T061500
+DTEND:20260116T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-43-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T062000
+DTEND:20260116T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-44-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T062500
+DTEND:20260116T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-45-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T063000
+DTEND:20260116T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-46-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T063500
+DTEND:20260116T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-47-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T065500
+DTEND:20260116T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-48-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T070000
+DTEND:20260116T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-49-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T071000
+DTEND:20260116T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-50-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T072000
+DTEND:20260116T075000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-51-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T075000
+DTEND:20260116T080000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-52-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T080000
+DTEND:20260116T084500
+SUMMARY:🏃 Morning Zone 2 Cardio Run
+DESCRIPTION:Maintain HR between 120-140 BPM, nasal breathing\n\nFacilitator: Running Coach\n\nMetrics: heart_rate, distance, pace, cadence
+LOCATION:Outdoor Track
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-53-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T171000
+DTEND:20260116T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-54-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T175000
+DTEND:20260116T182000
+SUMMARY:🏃 High-Intensity Interval Training
+DESCRIPTION:4x4 protocol: 4 min high intensity, 3 min recovery\n\nFacilitator: Personal Trainer\n\nMetrics: heart_rate_max, calories_burned, vo2_estimate
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-55-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T182000
+DTEND:20260116T182500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-56-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T182500
+DTEND:20260116T192500
+SUMMARY:🏃 Strength Training - Upper Body
+DESCRIPTION:Focus on compound movements: bench press, rows, shoulder press\n\nFacilitator: Strength Coach\n\nMetrics: weight_lifted, reps, sets, rpe
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-57-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T084500
+DTEND:20260116T085000
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-58-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T192500
+DTEND:20260116T202500
+SUMMARY:🏃 Strength Training - Lower Body
+DESCRIPTION:Squats, deadlifts, lunges - progressive overload protocol\n\nFacilitator: Strength Coach\n\nMetrics: weight_lifted, reps, sets, rpe
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-59-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T085000
+DTEND:20260116T085500
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-60-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T202500
+DTEND:20260116T211000
+SUMMARY:🏃 Yoga Flow Session
+DESCRIPTION:Vinyasa flow focusing on flexibility and breath work\n\nFacilitator: Yoga Instructor\n\nMetrics: flexibility_score, breath_count
+LOCATION:Yoga Studio
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-61-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T085500
+DTEND:20260116T090000
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-62-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T211000
+DTEND:20260116T215000
+SUMMARY:🏃 Swimming Laps
+DESCRIPTION:Mixed strokes, focus on endurance and technique\n\nFacilitator: Swim Coach\n\nMetrics: laps_completed, stroke_count, time_per_lap
+LOCATION:Pool
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-63-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T215000
+DTEND:20260116T215500
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-64-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T060000
+DTEND:20260116T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-65-20260116@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260116T215500
+DTEND:20260116T220000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-66-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T060000
+DTEND:20260117T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-67-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T060500
+DTEND:20260117T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-68-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T170000
+DTEND:20260117T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-69-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T170500
+DTEND:20260117T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-70-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T061000
+DTEND:20260117T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-71-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T061500
+DTEND:20260117T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-72-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T062000
+DTEND:20260117T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-73-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T062500
+DTEND:20260117T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-74-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T063000
+DTEND:20260117T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-75-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T063500
+DTEND:20260117T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-76-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T065500
+DTEND:20260117T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-77-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T070000
+DTEND:20260117T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-78-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T071000
+DTEND:20260117T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-79-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T120000
+DTEND:20260117T123000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-80-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T123000
+DTEND:20260117T124000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-81-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T171000
+DTEND:20260117T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-82-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T175000
+DTEND:20260117T175500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-83-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T072000
+DTEND:20260117T072500
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-84-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T072500
+DTEND:20260117T073000
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-85-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T073000
+DTEND:20260117T073500
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-86-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T073500
+DTEND:20260117T074000
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-87-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T074000
+DTEND:20260117T075000
+SUMMARY:🥗 Green Smoothie
+DESCRIPTION:Spinach, kale, berries, protein powder\n\nFacilitator: Self\n\nMetrics: vegetable_servings, antioxidant_score
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-88-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T075000
+DTEND:20260117T080000
+SUMMARY:🏃 Eye Exercise Routine
+DESCRIPTION:Bates method exercises for eye health - 20-20-20 rule compliance\n\nFacilitator: Self\n\nMetrics: completion, eye_strain_level
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-89-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T060000
+DTEND:20260117T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-90-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T080000
+DTEND:20260117T081500
+SUMMARY:🏃 Mobility and Stretching
+DESCRIPTION:Dynamic and static stretching routine\n\nFacilitator: Self\n\nMetrics: flexibility_assessment
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-91-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T081500
+DTEND:20260117T082000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-92-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T175500
+DTEND:20260117T180500
+SUMMARY:🥗 Evening Protein Snack
+DESCRIPTION:Casein or cottage cheese before bed\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-93-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T082000
+DTEND:20260117T082500
+SUMMARY:🥗 Vitamin C Intake
+DESCRIPTION:Citrus or supplement for immunity\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-94-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T082500
+DTEND:20260117T083000
+SUMMARY:🥗 Fiber Supplement
+DESCRIPTION:Psyllium husk for digestive health\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-95-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T083000
+DTEND:20260117T083500
+SUMMARY:🥗 Apple Cider Vinegar
+DESCRIPTION:Diluted ACV before meals\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-96-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T083500
+DTEND:20260117T085500
+SUMMARY:🏃 Light Recovery Walk
+DESCRIPTION:Easy 20-min walk for active recovery\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-97-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T085500
+DTEND:20260117T090500
+SUMMARY:🏃 Mid-Day Walk
+DESCRIPTION:10-minute walk after lunch\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-98-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T090500
+DTEND:20260117T092000
+SUMMARY:🏃 Foam Rolling Session
+DESCRIPTION:Self-myofascial release\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-99-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T092000
+DTEND:20260117T092500
+SUMMARY:🏃 Plank Challenge
+DESCRIPTION:Progressive plank hold times\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-100-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T092500
+DTEND:20260117T093000
+SUMMARY:🏃 Wall Sits
+DESCRIPTION:Isometric leg strengthening\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-101-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T093000
+DTEND:20260117T093500
+SUMMARY:🏃 Standing Desk Breaks
+DESCRIPTION:Stand and stretch every hour\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-102-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T093500
+DTEND:20260117T094500
+SUMMARY:🏃 Neck and Shoulder Stretches
+DESCRIPTION:Office-friendly stretches\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-103-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T094500
+DTEND:20260117T095500
+SUMMARY:🏃 Hip Flexor Stretches
+DESCRIPTION:Combat sitting with hip openers\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-104-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T095500
+DTEND:20260117T100500
+SUMMARY:🏃 Ankle Mobility Drills
+DESCRIPTION:Circles and stretches for ankle health\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-105-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T180500
+DTEND:20260117T182000
+SUMMARY:🧘 Evening Wind-Down Routine
+DESCRIPTION:Blue light glasses, dim lights\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-106-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T100500
+DTEND:20260117T101000
+SUMMARY:🏃 Wrist Exercises
+DESCRIPTION:Prevent RSI with wrist mobility\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-107-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T124000
+DTEND:20260117T131000
+SUMMARY:🧘 Breathwork Session
+DESCRIPTION:Wim Hof or holotropic breathing\n\nFacilitator: Breathwork Coach\n\nMetrics: breath_hold_time, oxygen_saturation
+LOCATION:Studio/Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-108-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T101000
+DTEND:20260117T102500
+SUMMARY:🧘 Meditation Session
+DESCRIPTION:Guided mindfulness meditation\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-109-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T102500
+DTEND:20260117T104000
+SUMMARY:🧘 Progressive Muscle Relaxation
+DESCRIPTION:Full body tension release\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-110-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T104000
+DTEND:20260117T105000
+SUMMARY:🧘 Deep Breathing Exercises
+DESCRIPTION:4-7-8 breathing technique\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-111-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T105000
+DTEND:20260117T110000
+SUMMARY:🧘 Box Breathing
+DESCRIPTION:4-4-4-4 breath pattern for stress\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-112-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T110000
+DTEND:20260117T110500
+SUMMARY:🧘 Cold Shower Ending
+DESCRIPTION:30 seconds cold at end of shower\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-113-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T110500
+DTEND:20260117T111500
+SUMMARY:🧘 Gratitude Journaling
+DESCRIPTION:Write 3 things grateful for\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-114-20260117@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260117T111500
+DTEND:20260117T113000
+SUMMARY:🏃 Brain Training Games
+DESCRIPTION:Cognitive exercises app\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-115-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T060000
+DTEND:20260118T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-116-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T060500
+DTEND:20260118T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-117-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T170000
+DTEND:20260118T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-118-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T170500
+DTEND:20260118T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-119-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T061000
+DTEND:20260118T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-120-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T061500
+DTEND:20260118T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-121-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T062000
+DTEND:20260118T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-122-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T062500
+DTEND:20260118T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-123-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T063000
+DTEND:20260118T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-124-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T063500
+DTEND:20260118T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-125-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T065500
+DTEND:20260118T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-126-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T070000
+DTEND:20260118T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-127-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T071000
+DTEND:20260118T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-128-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T120000
+DTEND:20260118T123000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-129-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T123000
+DTEND:20260118T124000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-130-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T171000
+DTEND:20260118T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-131-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T175000
+DTEND:20260118T175500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-132-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T072000
+DTEND:20260118T072500
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-133-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T072500
+DTEND:20260118T073000
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-134-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T073000
+DTEND:20260118T073500
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-135-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T073500
+DTEND:20260118T074000
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-136-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T074000
+DTEND:20260118T075000
+SUMMARY:🥗 Green Smoothie
+DESCRIPTION:Spinach, kale, berries, protein powder\n\nFacilitator: Self\n\nMetrics: vegetable_servings, antioxidant_score
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-137-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T075000
+DTEND:20260118T080000
+SUMMARY:🏃 Eye Exercise Routine
+DESCRIPTION:Bates method exercises for eye health - 20-20-20 rule compliance\n\nFacilitator: Self\n\nMetrics: completion, eye_strain_level
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-138-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T060000
+DTEND:20260118T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-139-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T080000
+DTEND:20260118T081500
+SUMMARY:🏃 Mobility and Stretching
+DESCRIPTION:Dynamic and static stretching routine\n\nFacilitator: Self\n\nMetrics: flexibility_assessment
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-140-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T081500
+DTEND:20260118T082000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-141-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T175500
+DTEND:20260118T180500
+SUMMARY:🥗 Evening Protein Snack
+DESCRIPTION:Casein or cottage cheese before bed\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-142-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T082000
+DTEND:20260118T082500
+SUMMARY:🥗 Vitamin C Intake
+DESCRIPTION:Citrus or supplement for immunity\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-143-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T082500
+DTEND:20260118T083000
+SUMMARY:🥗 Fiber Supplement
+DESCRIPTION:Psyllium husk for digestive health\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-144-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T083000
+DTEND:20260118T083500
+SUMMARY:🥗 Apple Cider Vinegar
+DESCRIPTION:Diluted ACV before meals\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-145-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T083500
+DTEND:20260118T085500
+SUMMARY:🏃 Light Recovery Walk
+DESCRIPTION:Easy 20-min walk for active recovery\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-146-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T085500
+DTEND:20260118T090500
+SUMMARY:🏃 Mid-Day Walk
+DESCRIPTION:10-minute walk after lunch\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-147-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T090500
+DTEND:20260118T092000
+SUMMARY:🏃 Foam Rolling Session
+DESCRIPTION:Self-myofascial release\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-148-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T092000
+DTEND:20260118T092500
+SUMMARY:🏃 Plank Challenge
+DESCRIPTION:Progressive plank hold times\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-149-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T092500
+DTEND:20260118T093000
+SUMMARY:🏃 Wall Sits
+DESCRIPTION:Isometric leg strengthening\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-150-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T093000
+DTEND:20260118T093500
+SUMMARY:🏃 Standing Desk Breaks
+DESCRIPTION:Stand and stretch every hour\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-151-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T093500
+DTEND:20260118T094500
+SUMMARY:🏃 Neck and Shoulder Stretches
+DESCRIPTION:Office-friendly stretches\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-152-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T094500
+DTEND:20260118T095500
+SUMMARY:🏃 Hip Flexor Stretches
+DESCRIPTION:Combat sitting with hip openers\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-153-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T095500
+DTEND:20260118T100500
+SUMMARY:🏃 Ankle Mobility Drills
+DESCRIPTION:Circles and stretches for ankle health\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-154-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T180500
+DTEND:20260118T182000
+SUMMARY:🧘 Evening Wind-Down Routine
+DESCRIPTION:Blue light glasses, dim lights\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-155-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T100500
+DTEND:20260118T101000
+SUMMARY:🏃 Wrist Exercises
+DESCRIPTION:Prevent RSI with wrist mobility\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-156-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T124000
+DTEND:20260118T131000
+SUMMARY:🧘 Breathwork Session
+DESCRIPTION:Wim Hof or holotropic breathing\n\nFacilitator: Breathwork Coach\n\nMetrics: breath_hold_time, oxygen_saturation
+LOCATION:Studio/Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-157-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T101000
+DTEND:20260118T102500
+SUMMARY:🧘 Meditation Session
+DESCRIPTION:Guided mindfulness meditation\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-158-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T102500
+DTEND:20260118T104000
+SUMMARY:🧘 Progressive Muscle Relaxation
+DESCRIPTION:Full body tension release\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-159-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T104000
+DTEND:20260118T105000
+SUMMARY:🧘 Deep Breathing Exercises
+DESCRIPTION:4-7-8 breathing technique\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-160-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T105000
+DTEND:20260118T110000
+SUMMARY:🧘 Box Breathing
+DESCRIPTION:4-4-4-4 breath pattern for stress\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-161-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T110000
+DTEND:20260118T110500
+SUMMARY:🧘 Cold Shower Ending
+DESCRIPTION:30 seconds cold at end of shower\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-162-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T110500
+DTEND:20260118T111500
+SUMMARY:🧘 Gratitude Journaling
+DESCRIPTION:Write 3 things grateful for\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-163-20260118@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260118T111500
+DTEND:20260118T113000
+SUMMARY:🏃 Brain Training Games
+DESCRIPTION:Cognitive exercises app\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-164-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T060000
+DTEND:20260119T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-165-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T060500
+DTEND:20260119T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-166-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T170000
+DTEND:20260119T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-167-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T170500
+DTEND:20260119T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-168-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T061000
+DTEND:20260119T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-169-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T061500
+DTEND:20260119T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-170-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T062000
+DTEND:20260119T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-171-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T062500
+DTEND:20260119T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-172-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T063000
+DTEND:20260119T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-173-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T063500
+DTEND:20260119T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-174-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T065500
+DTEND:20260119T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-175-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T070000
+DTEND:20260119T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-176-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T071000
+DTEND:20260119T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-177-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T072000
+DTEND:20260119T075000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-178-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T075000
+DTEND:20260119T080000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-179-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T080000
+DTEND:20260119T084500
+SUMMARY:🏃 Morning Zone 2 Cardio Run
+DESCRIPTION:Maintain HR between 120-140 BPM, nasal breathing\n\nFacilitator: Running Coach\n\nMetrics: heart_rate, distance, pace, cadence
+LOCATION:Outdoor Track
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-180-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T171000
+DTEND:20260119T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-181-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T175000
+DTEND:20260119T175500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-182-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T175500
+DTEND:20260119T185500
+SUMMARY:🏃 Strength Training - Upper Body
+DESCRIPTION:Focus on compound movements: bench press, rows, shoulder press\n\nFacilitator: Strength Coach\n\nMetrics: weight_lifted, reps, sets, rpe
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-183-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T084500
+DTEND:20260119T085000
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-184-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T185500
+DTEND:20260119T195500
+SUMMARY:🏃 Strength Training - Lower Body
+DESCRIPTION:Squats, deadlifts, lunges - progressive overload protocol\n\nFacilitator: Strength Coach\n\nMetrics: weight_lifted, reps, sets, rpe
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-185-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T085000
+DTEND:20260119T085500
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-186-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T085500
+DTEND:20260119T090000
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-187-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T195500
+DTEND:20260119T200000
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-188-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T200000
+DTEND:20260119T210000
+SUMMARY:🏃 Cycling Session
+DESCRIPTION:Zone 2 endurance ride, flat terrain\n\nFacilitator: Cycling Coach\n\nMetrics: distance, average_speed, cadence, heart_rate
+LOCATION:Indoor/Outdoor
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-189-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T210000
+DTEND:20260119T211000
+SUMMARY:🥗 Green Smoothie
+DESCRIPTION:Spinach, kale, berries, protein powder\n\nFacilitator: Self\n\nMetrics: vegetable_servings, antioxidant_score
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-190-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T211000
+DTEND:20260119T212000
+SUMMARY:🏃 Eye Exercise Routine
+DESCRIPTION:Bates method exercises for eye health - 20-20-20 rule compliance\n\nFacilitator: Self\n\nMetrics: completion, eye_strain_level
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-191-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T060000
+DTEND:20260119T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-192-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T212000
+DTEND:20260119T214000
+SUMMARY:🏃 Core Stability Workout
+DESCRIPTION:Planks, dead bugs, bird dogs - focus on anti-rotation\n\nFacilitator: Personal Trainer\n\nMetrics: hold_times, reps
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-193-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T214000
+DTEND:20260119T215500
+SUMMARY:🏃 Mobility and Stretching
+DESCRIPTION:Dynamic and static stretching routine\n\nFacilitator: Self\n\nMetrics: flexibility_assessment
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-194-20260119@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260119T215500
+DTEND:20260119T220000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-195-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T060000
+DTEND:20260120T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-196-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T060500
+DTEND:20260120T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-197-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T170000
+DTEND:20260120T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-198-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T170500
+DTEND:20260120T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-199-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T061000
+DTEND:20260120T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-200-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T061500
+DTEND:20260120T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-201-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T062000
+DTEND:20260120T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-202-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T062500
+DTEND:20260120T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-203-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T063000
+DTEND:20260120T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-204-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T063500
+DTEND:20260120T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-205-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T065500
+DTEND:20260120T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-206-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T070000
+DTEND:20260120T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-207-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T071000
+DTEND:20260120T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-208-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T072000
+DTEND:20260120T075000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-209-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T075000
+DTEND:20260120T080000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-210-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T171000
+DTEND:20260120T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-211-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T080000
+DTEND:20260120T083000
+SUMMARY:🏃 High-Intensity Interval Training
+DESCRIPTION:4x4 protocol: 4 min high intensity, 3 min recovery\n\nFacilitator: Personal Trainer\n\nMetrics: heart_rate_max, calories_burned, vo2_estimate
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-212-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T175000
+DTEND:20260120T175500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-213-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T083000
+DTEND:20260120T083500
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-214-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T083500
+DTEND:20260120T084000
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-215-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T175500
+DTEND:20260120T184000
+SUMMARY:🏃 Yoga Flow Session
+DESCRIPTION:Vinyasa flow focusing on flexibility and breath work\n\nFacilitator: Yoga Instructor\n\nMetrics: flexibility_score, breath_count
+LOCATION:Yoga Studio
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-216-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T084000
+DTEND:20260120T084500
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-217-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T184000
+DTEND:20260120T192000
+SUMMARY:🏃 Swimming Laps
+DESCRIPTION:Mixed strokes, focus on endurance and technique\n\nFacilitator: Swim Coach\n\nMetrics: laps_completed, stroke_count, time_per_lap
+LOCATION:Pool
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-218-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T084500
+DTEND:20260120T085000
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-219-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T085000
+DTEND:20260120T090000
+SUMMARY:🥗 Green Smoothie
+DESCRIPTION:Spinach, kale, berries, protein powder\n\nFacilitator: Self\n\nMetrics: vegetable_servings, antioxidant_score
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-220-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T192000
+DTEND:20260120T193000
+SUMMARY:🏃 Eye Exercise Routine
+DESCRIPTION:Bates method exercises for eye health - 20-20-20 rule compliance\n\nFacilitator: Self\n\nMetrics: completion, eye_strain_level
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-221-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T060000
+DTEND:20260120T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-222-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T193000
+DTEND:20260120T200000
+SUMMARY:🥗 Omega-3 Rich Fish Meal
+DESCRIPTION:Salmon or mackerel for EPA/DHA\n\nFacilitator: Self\n\nMetrics: omega3_grams, mercury_consideration
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-223-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T200000
+DTEND:20260120T201500
+SUMMARY:🏃 Mobility and Stretching
+DESCRIPTION:Dynamic and static stretching routine\n\nFacilitator: Self\n\nMetrics: flexibility_assessment
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-224-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T201500
+DTEND:20260120T202000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-225-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T202000
+DTEND:20260120T203000
+SUMMARY:🥗 Evening Protein Snack
+DESCRIPTION:Casein or cottage cheese before bed\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-226-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T203000
+DTEND:20260120T203500
+SUMMARY:🥗 Vitamin C Intake
+DESCRIPTION:Citrus or supplement for immunity\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-227-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T203500
+DTEND:20260120T204000
+SUMMARY:🥗 Fiber Supplement
+DESCRIPTION:Psyllium husk for digestive health\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-228-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T204000
+DTEND:20260120T204500
+SUMMARY:🥗 Apple Cider Vinegar
+DESCRIPTION:Diluted ACV before meals\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-229-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T204500
+DTEND:20260120T210500
+SUMMARY:🏃 Light Recovery Walk
+DESCRIPTION:Easy 20-min walk for active recovery\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-230-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T210500
+DTEND:20260120T211500
+SUMMARY:🏃 Mid-Day Walk
+DESCRIPTION:10-minute walk after lunch\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-231-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T211500
+DTEND:20260120T213000
+SUMMARY:🏃 Foam Rolling Session
+DESCRIPTION:Self-myofascial release\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-232-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T213000
+DTEND:20260120T213500
+SUMMARY:🏃 Plank Challenge
+DESCRIPTION:Progressive plank hold times\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-233-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T213500
+DTEND:20260120T214000
+SUMMARY:🏃 Wall Sits
+DESCRIPTION:Isometric leg strengthening\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-234-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T214000
+DTEND:20260120T214500
+SUMMARY:🏃 Standing Desk Breaks
+DESCRIPTION:Stand and stretch every hour\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-235-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T214500
+DTEND:20260120T215500
+SUMMARY:🏃 Neck and Shoulder Stretches
+DESCRIPTION:Office-friendly stretches\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-236-20260120@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260120T215500
+DTEND:20260120T220000
+SUMMARY:🏃 Wrist Exercises
+DESCRIPTION:Prevent RSI with wrist mobility\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-237-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T060000
+DTEND:20260121T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-238-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T060500
+DTEND:20260121T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-239-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T170000
+DTEND:20260121T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-240-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T170500
+DTEND:20260121T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-241-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T061000
+DTEND:20260121T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-242-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T061500
+DTEND:20260121T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-243-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T062000
+DTEND:20260121T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-244-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T062500
+DTEND:20260121T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-245-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T063000
+DTEND:20260121T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-246-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T063500
+DTEND:20260121T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-247-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T065500
+DTEND:20260121T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-248-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T070000
+DTEND:20260121T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-249-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T071000
+DTEND:20260121T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-250-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T072000
+DTEND:20260121T075000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-251-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T075000
+DTEND:20260121T080000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-252-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T080000
+DTEND:20260121T084500
+SUMMARY:🏃 Morning Zone 2 Cardio Run
+DESCRIPTION:Maintain HR between 120-140 BPM, nasal breathing\n\nFacilitator: Running Coach\n\nMetrics: heart_rate, distance, pace, cadence
+LOCATION:Outdoor Track
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-253-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T171000
+DTEND:20260121T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-254-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T175000
+DTEND:20260121T175500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-255-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T175500
+DTEND:20260121T185500
+SUMMARY:🏃 Strength Training - Upper Body
+DESCRIPTION:Focus on compound movements: bench press, rows, shoulder press\n\nFacilitator: Strength Coach\n\nMetrics: weight_lifted, reps, sets, rpe
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-256-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T084500
+DTEND:20260121T085000
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-257-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T185500
+DTEND:20260121T195500
+SUMMARY:🏃 Strength Training - Lower Body
+DESCRIPTION:Squats, deadlifts, lunges - progressive overload protocol\n\nFacilitator: Strength Coach\n\nMetrics: weight_lifted, reps, sets, rpe
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-258-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T085000
+DTEND:20260121T085500
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-259-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T085500
+DTEND:20260121T090000
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-260-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T195500
+DTEND:20260121T200000
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-261-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T200000
+DTEND:20260121T210000
+SUMMARY:🏃 Cycling Session
+DESCRIPTION:Zone 2 endurance ride, flat terrain\n\nFacilitator: Cycling Coach\n\nMetrics: distance, average_speed, cadence, heart_rate
+LOCATION:Indoor/Outdoor
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-262-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T210000
+DTEND:20260121T211000
+SUMMARY:🥗 Green Smoothie
+DESCRIPTION:Spinach, kale, berries, protein powder\n\nFacilitator: Self\n\nMetrics: vegetable_servings, antioxidant_score
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-263-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T211000
+DTEND:20260121T212000
+SUMMARY:🏃 Eye Exercise Routine
+DESCRIPTION:Bates method exercises for eye health - 20-20-20 rule compliance\n\nFacilitator: Self\n\nMetrics: completion, eye_strain_level
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-264-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T060000
+DTEND:20260121T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-265-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T212000
+DTEND:20260121T214000
+SUMMARY:🏃 Core Stability Workout
+DESCRIPTION:Planks, dead bugs, bird dogs - focus on anti-rotation\n\nFacilitator: Personal Trainer\n\nMetrics: hold_times, reps
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-266-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T214000
+DTEND:20260121T215500
+SUMMARY:🏃 Mobility and Stretching
+DESCRIPTION:Dynamic and static stretching routine\n\nFacilitator: Self\n\nMetrics: flexibility_assessment
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-267-20260121@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260121T215500
+DTEND:20260121T220000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-268-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T060000
+DTEND:20260122T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-269-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T060500
+DTEND:20260122T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-270-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T170000
+DTEND:20260122T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-271-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T170500
+DTEND:20260122T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-272-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T061000
+DTEND:20260122T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-273-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T061500
+DTEND:20260122T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-274-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T062000
+DTEND:20260122T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-275-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T062500
+DTEND:20260122T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-276-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T063000
+DTEND:20260122T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-277-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T063500
+DTEND:20260122T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-278-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T065500
+DTEND:20260122T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-279-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T070000
+DTEND:20260122T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-280-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T071000
+DTEND:20260122T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-281-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T072000
+DTEND:20260122T075000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-282-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T075000
+DTEND:20260122T080000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-283-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T171000
+DTEND:20260122T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-284-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T175000
+DTEND:20260122T175500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-285-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T080000
+DTEND:20260122T080500
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-286-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T080500
+DTEND:20260122T081000
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-287-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T081000
+DTEND:20260122T081500
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-288-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T081500
+DTEND:20260122T082000
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-289-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T082000
+DTEND:20260122T083000
+SUMMARY:🥗 Green Smoothie
+DESCRIPTION:Spinach, kale, berries, protein powder\n\nFacilitator: Self\n\nMetrics: vegetable_servings, antioxidant_score
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-290-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T083000
+DTEND:20260122T084000
+SUMMARY:🏃 Eye Exercise Routine
+DESCRIPTION:Bates method exercises for eye health - 20-20-20 rule compliance\n\nFacilitator: Self\n\nMetrics: completion, eye_strain_level
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-291-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T060000
+DTEND:20260122T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-292-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T084000
+DTEND:20260122T085500
+SUMMARY:🏃 Mobility and Stretching
+DESCRIPTION:Dynamic and static stretching routine\n\nFacilitator: Self\n\nMetrics: flexibility_assessment
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-293-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T175500
+DTEND:20260122T195500
+SUMMARY:🥗 Meal Prep Sunday
+DESCRIPTION:Prepare healthy meals for week\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-294-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T085500
+DTEND:20260122T090000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-295-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T195500
+DTEND:20260122T200500
+SUMMARY:🥗 Evening Protein Snack
+DESCRIPTION:Casein or cottage cheese before bed\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-296-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T200500
+DTEND:20260122T201000
+SUMMARY:🥗 Vitamin C Intake
+DESCRIPTION:Citrus or supplement for immunity\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-297-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T201000
+DTEND:20260122T201500
+SUMMARY:🥗 Fiber Supplement
+DESCRIPTION:Psyllium husk for digestive health\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-298-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T201500
+DTEND:20260122T202000
+SUMMARY:🥗 Apple Cider Vinegar
+DESCRIPTION:Diluted ACV before meals\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-299-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T202000
+DTEND:20260122T204000
+SUMMARY:🏃 Light Recovery Walk
+DESCRIPTION:Easy 20-min walk for active recovery\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-300-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T204000
+DTEND:20260122T205000
+SUMMARY:🏃 Mid-Day Walk
+DESCRIPTION:10-minute walk after lunch\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-301-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T205000
+DTEND:20260122T210500
+SUMMARY:🏃 Foam Rolling Session
+DESCRIPTION:Self-myofascial release\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-302-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T210500
+DTEND:20260122T215000
+SUMMARY:🧘 Contrast Therapy
+DESCRIPTION:Alternating hot sauna and cold plunge\n\nFacilitator: Spa Staff\n\nMetrics: cycles_completed, recovery_feeling
+LOCATION:Wellness Center
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-303-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T215000
+DTEND:20260122T215500
+SUMMARY:🏃 Plank Challenge
+DESCRIPTION:Progressive plank hold times\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-304-20260122@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260122T215500
+DTEND:20260122T220000
+SUMMARY:🏃 Wall Sits
+DESCRIPTION:Isometric leg strengthening\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-305-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T060000
+DTEND:20260123T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-306-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T060500
+DTEND:20260123T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-307-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T170000
+DTEND:20260123T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-308-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T170500
+DTEND:20260123T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-309-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T061000
+DTEND:20260123T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-310-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T061500
+DTEND:20260123T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-311-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T062000
+DTEND:20260123T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-312-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T062500
+DTEND:20260123T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-313-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T063000
+DTEND:20260123T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-314-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T063500
+DTEND:20260123T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-315-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T065500
+DTEND:20260123T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-316-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T070000
+DTEND:20260123T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-317-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T071000
+DTEND:20260123T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-318-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T072000
+DTEND:20260123T075000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-319-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T075000
+DTEND:20260123T080000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-320-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T080000
+DTEND:20260123T084500
+SUMMARY:🏃 Morning Zone 2 Cardio Run
+DESCRIPTION:Maintain HR between 120-140 BPM, nasal breathing\n\nFacilitator: Running Coach\n\nMetrics: heart_rate, distance, pace, cadence
+LOCATION:Outdoor Track
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-321-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T171000
+DTEND:20260123T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-322-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T175000
+DTEND:20260123T182000
+SUMMARY:🏃 High-Intensity Interval Training
+DESCRIPTION:4x4 protocol: 4 min high intensity, 3 min recovery\n\nFacilitator: Personal Trainer\n\nMetrics: heart_rate_max, calories_burned, vo2_estimate
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-323-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T182000
+DTEND:20260123T182500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-324-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T182500
+DTEND:20260123T192500
+SUMMARY:🏃 Strength Training - Upper Body
+DESCRIPTION:Focus on compound movements: bench press, rows, shoulder press\n\nFacilitator: Strength Coach\n\nMetrics: weight_lifted, reps, sets, rpe
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-325-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T084500
+DTEND:20260123T085000
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-326-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T192500
+DTEND:20260123T202500
+SUMMARY:🏃 Strength Training - Lower Body
+DESCRIPTION:Squats, deadlifts, lunges - progressive overload protocol\n\nFacilitator: Strength Coach\n\nMetrics: weight_lifted, reps, sets, rpe
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-327-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T085000
+DTEND:20260123T085500
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-328-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T202500
+DTEND:20260123T211000
+SUMMARY:🏃 Yoga Flow Session
+DESCRIPTION:Vinyasa flow focusing on flexibility and breath work\n\nFacilitator: Yoga Instructor\n\nMetrics: flexibility_score, breath_count
+LOCATION:Yoga Studio
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-329-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T085500
+DTEND:20260123T090000
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-330-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T211000
+DTEND:20260123T215000
+SUMMARY:🏃 Swimming Laps
+DESCRIPTION:Mixed strokes, focus on endurance and technique\n\nFacilitator: Swim Coach\n\nMetrics: laps_completed, stroke_count, time_per_lap
+LOCATION:Pool
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-331-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T215000
+DTEND:20260123T215500
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-332-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T060000
+DTEND:20260123T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-333-20260123@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260123T215500
+DTEND:20260123T220000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-334-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T060000
+DTEND:20260124T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-335-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T060500
+DTEND:20260124T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-336-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T170000
+DTEND:20260124T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-337-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T170500
+DTEND:20260124T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-338-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T061000
+DTEND:20260124T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-339-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T061500
+DTEND:20260124T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-340-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T062000
+DTEND:20260124T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-341-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T062500
+DTEND:20260124T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-342-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T063000
+DTEND:20260124T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-343-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T063500
+DTEND:20260124T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-344-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T065500
+DTEND:20260124T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-345-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T070000
+DTEND:20260124T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-346-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T071000
+DTEND:20260124T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-347-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T120000
+DTEND:20260124T123000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-348-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T123000
+DTEND:20260124T124000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-349-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T171000
+DTEND:20260124T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-350-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T175000
+DTEND:20260124T175500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-351-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T072000
+DTEND:20260124T072500
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-352-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T072500
+DTEND:20260124T073000
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-353-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T073000
+DTEND:20260124T073500
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-354-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T073500
+DTEND:20260124T074000
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-355-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T074000
+DTEND:20260124T075000
+SUMMARY:🥗 Green Smoothie
+DESCRIPTION:Spinach, kale, berries, protein powder\n\nFacilitator: Self\n\nMetrics: vegetable_servings, antioxidant_score
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-356-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T075000
+DTEND:20260124T080000
+SUMMARY:🏃 Eye Exercise Routine
+DESCRIPTION:Bates method exercises for eye health - 20-20-20 rule compliance\n\nFacilitator: Self\n\nMetrics: completion, eye_strain_level
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-357-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T060000
+DTEND:20260124T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-358-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T080000
+DTEND:20260124T081500
+SUMMARY:🏃 Mobility and Stretching
+DESCRIPTION:Dynamic and static stretching routine\n\nFacilitator: Self\n\nMetrics: flexibility_assessment
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-359-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T081500
+DTEND:20260124T082000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-360-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T175500
+DTEND:20260124T180500
+SUMMARY:🥗 Evening Protein Snack
+DESCRIPTION:Casein or cottage cheese before bed\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-361-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T082000
+DTEND:20260124T082500
+SUMMARY:🥗 Vitamin C Intake
+DESCRIPTION:Citrus or supplement for immunity\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-362-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T082500
+DTEND:20260124T083000
+SUMMARY:🥗 Fiber Supplement
+DESCRIPTION:Psyllium husk for digestive health\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-363-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T083000
+DTEND:20260124T083500
+SUMMARY:🥗 Apple Cider Vinegar
+DESCRIPTION:Diluted ACV before meals\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-364-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T083500
+DTEND:20260124T085500
+SUMMARY:🏃 Light Recovery Walk
+DESCRIPTION:Easy 20-min walk for active recovery\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-365-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T085500
+DTEND:20260124T090500
+SUMMARY:🏃 Mid-Day Walk
+DESCRIPTION:10-minute walk after lunch\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-366-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T090500
+DTEND:20260124T092000
+SUMMARY:🏃 Foam Rolling Session
+DESCRIPTION:Self-myofascial release\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-367-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T092000
+DTEND:20260124T092500
+SUMMARY:🏃 Plank Challenge
+DESCRIPTION:Progressive plank hold times\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-368-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T092500
+DTEND:20260124T093000
+SUMMARY:🏃 Wall Sits
+DESCRIPTION:Isometric leg strengthening\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-369-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T093000
+DTEND:20260124T093500
+SUMMARY:🏃 Standing Desk Breaks
+DESCRIPTION:Stand and stretch every hour\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-370-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T093500
+DTEND:20260124T094500
+SUMMARY:🏃 Neck and Shoulder Stretches
+DESCRIPTION:Office-friendly stretches\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-371-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T094500
+DTEND:20260124T095500
+SUMMARY:🏃 Hip Flexor Stretches
+DESCRIPTION:Combat sitting with hip openers\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-372-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T095500
+DTEND:20260124T100500
+SUMMARY:🏃 Ankle Mobility Drills
+DESCRIPTION:Circles and stretches for ankle health\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-373-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T180500
+DTEND:20260124T182000
+SUMMARY:🧘 Evening Wind-Down Routine
+DESCRIPTION:Blue light glasses, dim lights\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-374-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T100500
+DTEND:20260124T101000
+SUMMARY:🏃 Wrist Exercises
+DESCRIPTION:Prevent RSI with wrist mobility\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-375-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T124000
+DTEND:20260124T131000
+SUMMARY:🧘 Breathwork Session
+DESCRIPTION:Wim Hof or holotropic breathing\n\nFacilitator: Breathwork Coach\n\nMetrics: breath_hold_time, oxygen_saturation
+LOCATION:Studio/Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-376-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T101000
+DTEND:20260124T102500
+SUMMARY:🧘 Meditation Session
+DESCRIPTION:Guided mindfulness meditation\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-377-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T102500
+DTEND:20260124T104000
+SUMMARY:🧘 Progressive Muscle Relaxation
+DESCRIPTION:Full body tension release\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-378-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T104000
+DTEND:20260124T105000
+SUMMARY:🧘 Deep Breathing Exercises
+DESCRIPTION:4-7-8 breathing technique\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-379-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T105000
+DTEND:20260124T110000
+SUMMARY:🧘 Box Breathing
+DESCRIPTION:4-4-4-4 breath pattern for stress\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-380-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T110000
+DTEND:20260124T110500
+SUMMARY:🧘 Cold Shower Ending
+DESCRIPTION:30 seconds cold at end of shower\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-381-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T110500
+DTEND:20260124T111500
+SUMMARY:🧘 Gratitude Journaling
+DESCRIPTION:Write 3 things grateful for\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-382-20260124@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260124T111500
+DTEND:20260124T113000
+SUMMARY:🏃 Brain Training Games
+DESCRIPTION:Cognitive exercises app\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-383-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T060000
+DTEND:20260125T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-384-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T060500
+DTEND:20260125T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-385-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T170000
+DTEND:20260125T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-386-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T170500
+DTEND:20260125T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-387-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T061000
+DTEND:20260125T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-388-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T061500
+DTEND:20260125T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-389-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T062000
+DTEND:20260125T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-390-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T062500
+DTEND:20260125T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-391-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T063000
+DTEND:20260125T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-392-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T063500
+DTEND:20260125T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-393-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T065500
+DTEND:20260125T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-394-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T070000
+DTEND:20260125T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-395-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T071000
+DTEND:20260125T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-396-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T120000
+DTEND:20260125T123000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-397-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T123000
+DTEND:20260125T124000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-398-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T171000
+DTEND:20260125T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-399-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T175000
+DTEND:20260125T175500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-400-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T072000
+DTEND:20260125T072500
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-401-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T072500
+DTEND:20260125T073000
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-402-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T073000
+DTEND:20260125T073500
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-403-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T073500
+DTEND:20260125T074000
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-404-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T074000
+DTEND:20260125T075000
+SUMMARY:🥗 Green Smoothie
+DESCRIPTION:Spinach, kale, berries, protein powder\n\nFacilitator: Self\n\nMetrics: vegetable_servings, antioxidant_score
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-405-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T075000
+DTEND:20260125T080000
+SUMMARY:🏃 Eye Exercise Routine
+DESCRIPTION:Bates method exercises for eye health - 20-20-20 rule compliance\n\nFacilitator: Self\n\nMetrics: completion, eye_strain_level
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-406-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T060000
+DTEND:20260125T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-407-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T080000
+DTEND:20260125T081500
+SUMMARY:🏃 Mobility and Stretching
+DESCRIPTION:Dynamic and static stretching routine\n\nFacilitator: Self\n\nMetrics: flexibility_assessment
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-408-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T081500
+DTEND:20260125T082000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-409-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T175500
+DTEND:20260125T180500
+SUMMARY:🥗 Evening Protein Snack
+DESCRIPTION:Casein or cottage cheese before bed\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-410-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T082000
+DTEND:20260125T082500
+SUMMARY:🥗 Vitamin C Intake
+DESCRIPTION:Citrus or supplement for immunity\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-411-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T082500
+DTEND:20260125T083000
+SUMMARY:🥗 Fiber Supplement
+DESCRIPTION:Psyllium husk for digestive health\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-412-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T083000
+DTEND:20260125T083500
+SUMMARY:🥗 Apple Cider Vinegar
+DESCRIPTION:Diluted ACV before meals\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-413-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T083500
+DTEND:20260125T085500
+SUMMARY:🏃 Light Recovery Walk
+DESCRIPTION:Easy 20-min walk for active recovery\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-414-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T085500
+DTEND:20260125T090500
+SUMMARY:🏃 Mid-Day Walk
+DESCRIPTION:10-minute walk after lunch\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-415-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T090500
+DTEND:20260125T092000
+SUMMARY:🏃 Foam Rolling Session
+DESCRIPTION:Self-myofascial release\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-416-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T092000
+DTEND:20260125T092500
+SUMMARY:🏃 Plank Challenge
+DESCRIPTION:Progressive plank hold times\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-417-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T092500
+DTEND:20260125T093000
+SUMMARY:🏃 Wall Sits
+DESCRIPTION:Isometric leg strengthening\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-418-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T093000
+DTEND:20260125T093500
+SUMMARY:🏃 Standing Desk Breaks
+DESCRIPTION:Stand and stretch every hour\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-419-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T093500
+DTEND:20260125T094500
+SUMMARY:🏃 Neck and Shoulder Stretches
+DESCRIPTION:Office-friendly stretches\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-420-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T094500
+DTEND:20260125T095500
+SUMMARY:🏃 Hip Flexor Stretches
+DESCRIPTION:Combat sitting with hip openers\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-421-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T095500
+DTEND:20260125T100500
+SUMMARY:🏃 Ankle Mobility Drills
+DESCRIPTION:Circles and stretches for ankle health\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-422-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T180500
+DTEND:20260125T182000
+SUMMARY:🧘 Evening Wind-Down Routine
+DESCRIPTION:Blue light glasses, dim lights\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-423-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T100500
+DTEND:20260125T101000
+SUMMARY:🏃 Wrist Exercises
+DESCRIPTION:Prevent RSI with wrist mobility\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-424-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T124000
+DTEND:20260125T131000
+SUMMARY:🧘 Breathwork Session
+DESCRIPTION:Wim Hof or holotropic breathing\n\nFacilitator: Breathwork Coach\n\nMetrics: breath_hold_time, oxygen_saturation
+LOCATION:Studio/Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-425-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T101000
+DTEND:20260125T102500
+SUMMARY:🧘 Meditation Session
+DESCRIPTION:Guided mindfulness meditation\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-426-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T102500
+DTEND:20260125T104000
+SUMMARY:🧘 Progressive Muscle Relaxation
+DESCRIPTION:Full body tension release\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-427-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T104000
+DTEND:20260125T105000
+SUMMARY:🧘 Deep Breathing Exercises
+DESCRIPTION:4-7-8 breathing technique\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-428-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T105000
+DTEND:20260125T110000
+SUMMARY:🧘 Box Breathing
+DESCRIPTION:4-4-4-4 breath pattern for stress\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-429-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T110000
+DTEND:20260125T110500
+SUMMARY:🧘 Cold Shower Ending
+DESCRIPTION:30 seconds cold at end of shower\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-430-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T110500
+DTEND:20260125T111500
+SUMMARY:🧘 Gratitude Journaling
+DESCRIPTION:Write 3 things grateful for\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:THERAPY
+END:VEVENT
+BEGIN:VEVENT
+UID:event-431-20260125@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260125T111500
+DTEND:20260125T113000
+SUMMARY:🏃 Brain Training Games
+DESCRIPTION:Cognitive exercises app\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-432-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T060000
+DTEND:20260126T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-433-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T060500
+DTEND:20260126T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-434-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T170000
+DTEND:20260126T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-435-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T170500
+DTEND:20260126T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-436-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T061000
+DTEND:20260126T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-437-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T061500
+DTEND:20260126T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-438-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T062000
+DTEND:20260126T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-439-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T062500
+DTEND:20260126T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-440-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T063000
+DTEND:20260126T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-441-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T063500
+DTEND:20260126T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-442-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T065500
+DTEND:20260126T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-443-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T070000
+DTEND:20260126T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-444-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T071000
+DTEND:20260126T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-445-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T072000
+DTEND:20260126T075000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-446-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T075000
+DTEND:20260126T080000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-447-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T080000
+DTEND:20260126T084500
+SUMMARY:🏃 Morning Zone 2 Cardio Run
+DESCRIPTION:Maintain HR between 120-140 BPM, nasal breathing\n\nFacilitator: Running Coach\n\nMetrics: heart_rate, distance, pace, cadence
+LOCATION:Outdoor Track
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-448-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T171000
+DTEND:20260126T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-449-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T175000
+DTEND:20260126T175500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-450-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T175500
+DTEND:20260126T185500
+SUMMARY:🏃 Strength Training - Upper Body
+DESCRIPTION:Focus on compound movements: bench press, rows, shoulder press\n\nFacilitator: Strength Coach\n\nMetrics: weight_lifted, reps, sets, rpe
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-451-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T084500
+DTEND:20260126T085000
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-452-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T185500
+DTEND:20260126T195500
+SUMMARY:🏃 Strength Training - Lower Body
+DESCRIPTION:Squats, deadlifts, lunges - progressive overload protocol\n\nFacilitator: Strength Coach\n\nMetrics: weight_lifted, reps, sets, rpe
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-453-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T085000
+DTEND:20260126T085500
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-454-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T085500
+DTEND:20260126T090000
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-455-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T195500
+DTEND:20260126T200000
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-456-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T200000
+DTEND:20260126T210000
+SUMMARY:🏃 Cycling Session
+DESCRIPTION:Zone 2 endurance ride, flat terrain\n\nFacilitator: Cycling Coach\n\nMetrics: distance, average_speed, cadence, heart_rate
+LOCATION:Indoor/Outdoor
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-457-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T210000
+DTEND:20260126T211000
+SUMMARY:🥗 Green Smoothie
+DESCRIPTION:Spinach, kale, berries, protein powder\n\nFacilitator: Self\n\nMetrics: vegetable_servings, antioxidant_score
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-458-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T211000
+DTEND:20260126T212000
+SUMMARY:🏃 Eye Exercise Routine
+DESCRIPTION:Bates method exercises for eye health - 20-20-20 rule compliance\n\nFacilitator: Self\n\nMetrics: completion, eye_strain_level
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-459-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T060000
+DTEND:20260126T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-460-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T212000
+DTEND:20260126T214000
+SUMMARY:🏃 Core Stability Workout
+DESCRIPTION:Planks, dead bugs, bird dogs - focus on anti-rotation\n\nFacilitator: Personal Trainer\n\nMetrics: hold_times, reps
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-461-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T214000
+DTEND:20260126T215500
+SUMMARY:🏃 Mobility and Stretching
+DESCRIPTION:Dynamic and static stretching routine\n\nFacilitator: Self\n\nMetrics: flexibility_assessment
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-462-20260126@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260126T215500
+DTEND:20260126T220000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-463-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T060000
+DTEND:20260127T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-464-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T060500
+DTEND:20260127T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-465-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T170000
+DTEND:20260127T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-466-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T170500
+DTEND:20260127T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-467-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T061000
+DTEND:20260127T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-468-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T061500
+DTEND:20260127T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-469-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T062000
+DTEND:20260127T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-470-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T062500
+DTEND:20260127T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-471-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T063000
+DTEND:20260127T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-472-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T063500
+DTEND:20260127T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-473-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T065500
+DTEND:20260127T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-474-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T070000
+DTEND:20260127T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-475-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T071000
+DTEND:20260127T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-476-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T072000
+DTEND:20260127T075000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-477-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T075000
+DTEND:20260127T080000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-478-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T171000
+DTEND:20260127T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-479-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T080000
+DTEND:20260127T083000
+SUMMARY:🏃 High-Intensity Interval Training
+DESCRIPTION:4x4 protocol: 4 min high intensity, 3 min recovery\n\nFacilitator: Personal Trainer\n\nMetrics: heart_rate_max, calories_burned, vo2_estimate
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-480-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T175000
+DTEND:20260127T175500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-481-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T083000
+DTEND:20260127T083500
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-482-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T083500
+DTEND:20260127T084000
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-483-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T175500
+DTEND:20260127T184000
+SUMMARY:🏃 Yoga Flow Session
+DESCRIPTION:Vinyasa flow focusing on flexibility and breath work\n\nFacilitator: Yoga Instructor\n\nMetrics: flexibility_score, breath_count
+LOCATION:Yoga Studio
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-484-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T084000
+DTEND:20260127T084500
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-485-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T184000
+DTEND:20260127T192000
+SUMMARY:🏃 Swimming Laps
+DESCRIPTION:Mixed strokes, focus on endurance and technique\n\nFacilitator: Swim Coach\n\nMetrics: laps_completed, stroke_count, time_per_lap
+LOCATION:Pool
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-486-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T084500
+DTEND:20260127T085000
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-487-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T085000
+DTEND:20260127T090000
+SUMMARY:🥗 Green Smoothie
+DESCRIPTION:Spinach, kale, berries, protein powder\n\nFacilitator: Self\n\nMetrics: vegetable_servings, antioxidant_score
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-488-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T192000
+DTEND:20260127T193000
+SUMMARY:🏃 Eye Exercise Routine
+DESCRIPTION:Bates method exercises for eye health - 20-20-20 rule compliance\n\nFacilitator: Self\n\nMetrics: completion, eye_strain_level
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-489-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T060000
+DTEND:20260127T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-490-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T193000
+DTEND:20260127T200000
+SUMMARY:🥗 Omega-3 Rich Fish Meal
+DESCRIPTION:Salmon or mackerel for EPA/DHA\n\nFacilitator: Self\n\nMetrics: omega3_grams, mercury_consideration
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-491-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T200000
+DTEND:20260127T201500
+SUMMARY:🏃 Mobility and Stretching
+DESCRIPTION:Dynamic and static stretching routine\n\nFacilitator: Self\n\nMetrics: flexibility_assessment
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-492-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T201500
+DTEND:20260127T202000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-493-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T202000
+DTEND:20260127T203000
+SUMMARY:🥗 Evening Protein Snack
+DESCRIPTION:Casein or cottage cheese before bed\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-494-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T203000
+DTEND:20260127T203500
+SUMMARY:🥗 Vitamin C Intake
+DESCRIPTION:Citrus or supplement for immunity\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-495-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T203500
+DTEND:20260127T204000
+SUMMARY:🥗 Fiber Supplement
+DESCRIPTION:Psyllium husk for digestive health\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-496-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T204000
+DTEND:20260127T204500
+SUMMARY:🥗 Apple Cider Vinegar
+DESCRIPTION:Diluted ACV before meals\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-497-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T204500
+DTEND:20260127T210500
+SUMMARY:🏃 Light Recovery Walk
+DESCRIPTION:Easy 20-min walk for active recovery\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-498-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T210500
+DTEND:20260127T211500
+SUMMARY:🏃 Mid-Day Walk
+DESCRIPTION:10-minute walk after lunch\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-499-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T211500
+DTEND:20260127T213000
+SUMMARY:🏃 Foam Rolling Session
+DESCRIPTION:Self-myofascial release\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-500-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T213000
+DTEND:20260127T213500
+SUMMARY:🏃 Plank Challenge
+DESCRIPTION:Progressive plank hold times\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-501-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T213500
+DTEND:20260127T214000
+SUMMARY:🏃 Wall Sits
+DESCRIPTION:Isometric leg strengthening\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-502-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T214000
+DTEND:20260127T214500
+SUMMARY:🏃 Standing Desk Breaks
+DESCRIPTION:Stand and stretch every hour\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-503-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T214500
+DTEND:20260127T215500
+SUMMARY:🏃 Neck and Shoulder Stretches
+DESCRIPTION:Office-friendly stretches\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-504-20260127@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260127T215500
+DTEND:20260127T220000
+SUMMARY:🏃 Wrist Exercises
+DESCRIPTION:Prevent RSI with wrist mobility\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-505-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T060000
+DTEND:20260128T060500
+SUMMARY:💊 Morning Blood Pressure Medication
+DESCRIPTION:Take with water, before breakfast\n\nFacilitator: Self\n\nMetrics: time_taken, blood_pressure_reading
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-506-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T060500
+DTEND:20260128T061000
+SUMMARY:💊 Thyroid Medication
+DESCRIPTION:Empty stomach, 30 min before food\n\nFacilitator: Self\n\nMetrics: time_taken, empty_stomach_compliance
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-507-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T170000
+DTEND:20260128T170500
+SUMMARY:💊 Metformin with Dinner
+DESCRIPTION:Take with largest meal to reduce GI side effects\n\nFacilitator: Self\n\nMetrics: time_taken, meal_size
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-508-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T170500
+DTEND:20260128T171000
+SUMMARY:💊 Statin Before Bed
+DESCRIPTION:Cholesterol medication, evening dose\n\nFacilitator: Self\n\nMetrics: time_taken, consistency
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-509-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T061000
+DTEND:20260128T061500
+SUMMARY:💊 Inhaler Use
+DESCRIPTION:Preventive inhaler, morning and evening\n\nFacilitator: Self\n\nMetrics: puffs, technique_score
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-510-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T061500
+DTEND:20260128T062000
+SUMMARY:💊 Blood Glucose Check
+DESCRIPTION:Morning fasting glucose test\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-511-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T062000
+DTEND:20260128T062500
+SUMMARY:💊 Allergy Medication
+DESCRIPTION:Antihistamine as needed during high pollen\n\nFacilitator: Self\n\nMetrics: symptom_relief_rating
+LOCATION:Anywhere
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-512-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T062500
+DTEND:20260128T063000
+SUMMARY:💊 Pain Management Medication
+DESCRIPTION:As prescribed for chronic condition\n\nFacilitator: Self\n\nMetrics: pain_level_before, pain_level_after
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-513-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T063000
+DTEND:20260128T063500
+SUMMARY:💊 Blood Pressure Log
+DESCRIPTION:Record BP readings\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:MEDICATION
+END:VEVENT
+BEGIN:VEVENT
+UID:event-514-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T063500
+DTEND:20260128T065500
+SUMMARY:🥗 Protein-Rich Breakfast
+DESCRIPTION:30g protein minimum, low glycemic carbs\n\nFacilitator: Self\n\nMetrics: protein_grams, calories, glycemic_load
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-515-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T065500
+DTEND:20260128T070000
+SUMMARY:🥗 Mid-Morning Supplement Stack
+DESCRIPTION:Vitamin D3, Omega-3, Magnesium glycinate\n\nFacilitator: Self\n\nMetrics: supplements_taken, time_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-516-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T070000
+DTEND:20260128T071000
+SUMMARY:🥗 Pre-Workout Nutrition
+DESCRIPTION:Light carbs and caffeine 45 min before exercise\n\nFacilitator: Self\n\nMetrics: timing_accuracy, energy_level
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-517-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T071000
+DTEND:20260128T072000
+SUMMARY:🥗 Post-Workout Recovery Shake
+DESCRIPTION:Whey protein, creatine, fast carbs within 30 min\n\nFacilitator: Self\n\nMetrics: protein_grams, timing_post_workout
+LOCATION:Gym/Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-518-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T072000
+DTEND:20260128T075000
+SUMMARY:🥗 Balanced Lunch
+DESCRIPTION:Mediterranean-style: vegetables, lean protein, olive oil\n\nFacilitator: Self\n\nMetrics: vegetable_servings, protein_grams, healthy_fats
+LOCATION:Home/Office
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-519-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T075000
+DTEND:20260128T080000
+SUMMARY:🥗 Afternoon Healthy Snack
+DESCRIPTION:Nuts, Greek yogurt, or fruit\n\nFacilitator: Self\n\nMetrics: calories, satiety_rating
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-520-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T080000
+DTEND:20260128T084500
+SUMMARY:🏃 Morning Zone 2 Cardio Run
+DESCRIPTION:Maintain HR between 120-140 BPM, nasal breathing\n\nFacilitator: Running Coach\n\nMetrics: heart_rate, distance, pace, cadence
+LOCATION:Outdoor Track
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-521-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T171000
+DTEND:20260128T175000
+SUMMARY:🥗 Dinner - High Fiber
+DESCRIPTION:25g fiber target, colorful vegetables\n\nFacilitator: Self\n\nMetrics: fiber_grams, vegetable_variety
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-522-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T175000
+DTEND:20260128T175500
+SUMMARY:🥗 Evening Supplement
+DESCRIPTION:Zinc, B-complex before bed\n\nFacilitator: Self\n\nMetrics: supplements_taken
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-523-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T175500
+DTEND:20260128T185500
+SUMMARY:🏃 Strength Training - Upper Body
+DESCRIPTION:Focus on compound movements: bench press, rows, shoulder press\n\nFacilitator: Strength Coach\n\nMetrics: weight_lifted, reps, sets, rpe
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-524-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T084500
+DTEND:20260128T085000
+SUMMARY:🥗 Hydration Check
+DESCRIPTION:Ensure 3L water intake throughout day\n\nFacilitator: Self\n\nMetrics: water_intake_liters
+LOCATION:Anywhere
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-525-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T185500
+DTEND:20260128T195500
+SUMMARY:🏃 Strength Training - Lower Body
+DESCRIPTION:Squats, deadlifts, lunges - progressive overload protocol\n\nFacilitator: Strength Coach\n\nMetrics: weight_lifted, reps, sets, rpe
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-526-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T085000
+DTEND:20260128T085500
+SUMMARY:🥗 Probiotics Intake
+DESCRIPTION:Morning probiotic for gut health\n\nFacilitator: Self\n\nMetrics: strain_count, consistency
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-527-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T085500
+DTEND:20260128T090000
+SUMMARY:🥗 Collagen Supplement
+DESCRIPTION:Collagen peptides for joint and skin health\n\nFacilitator: Self\n\nMetrics: grams_consumed
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-528-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T195500
+DTEND:20260128T200000
+SUMMARY:🥗 Electrolyte Drink
+DESCRIPTION:LMNT or similar during/after exercise\n\nFacilitator: Self\n\nMetrics: sodium_mg, potassium_mg
+LOCATION:Gym
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-529-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T200000
+DTEND:20260128T210000
+SUMMARY:🏃 Cycling Session
+DESCRIPTION:Zone 2 endurance ride, flat terrain\n\nFacilitator: Cycling Coach\n\nMetrics: distance, average_speed, cadence, heart_rate
+LOCATION:Indoor/Outdoor
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-530-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T210000
+DTEND:20260128T211000
+SUMMARY:🥗 Green Smoothie
+DESCRIPTION:Spinach, kale, berries, protein powder\n\nFacilitator: Self\n\nMetrics: vegetable_servings, antioxidant_score
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-531-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T211000
+DTEND:20260128T212000
+SUMMARY:🏃 Eye Exercise Routine
+DESCRIPTION:Bates method exercises for eye health - 20-20-20 rule compliance\n\nFacilitator: Self\n\nMetrics: completion, eye_strain_level
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-532-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T060000
+DTEND:20260128T060000
+SUMMARY:🥗 Intermittent Fasting Window
+DESCRIPTION:16:8 protocol - eating window 12pm-8pm\n\nFacilitator: Self\n\nMetrics: fasting_hours, compliance
+LOCATION:N/A
+CATEGORIES:FOOD
+END:VEVENT
+BEGIN:VEVENT
+UID:event-533-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T212000
+DTEND:20260128T214000
+SUMMARY:🏃 Core Stability Workout
+DESCRIPTION:Planks, dead bugs, bird dogs - focus on anti-rotation\n\nFacilitator: Personal Trainer\n\nMetrics: hold_times, reps
+LOCATION:Gym
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-534-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T214000
+DTEND:20260128T215500
+SUMMARY:🏃 Mobility and Stretching
+DESCRIPTION:Dynamic and static stretching routine\n\nFacilitator: Self\n\nMetrics: flexibility_assessment
+LOCATION:Home
+CATEGORIES:FITNESS
+END:VEVENT
+BEGIN:VEVENT
+UID:event-535-20260128@resourceallocator
+DTSTAMP:20260117T021851Z
+DTSTART:20260128T215500
+DTEND:20260128T220000
+SUMMARY:🥗 Vitamin B12 Supplement
+DESCRIPTION:Sublingual B12 for energy\n\nFacilitator: Self\n\nMetrics: completion, quality_rating
+LOCATION:Home
+CATEGORIES:FOOD
+END:VEVENT
+END:VCALENDAR
