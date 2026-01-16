@@ -1,0 +1,23 @@
+ * Serving Flask app 'api'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.81.0.146:5001
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+127.0.0.1 - - [17/Jan/2026 02:46:51] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jan/2026 02:47:02] "GET /api/health HTTP/1.1" 200 -
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+127.0.0.1 - - [17/Jan/2026 02:47:37] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jan/2026 02:47:37] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jan/2026 02:47:38] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jan/2026 02:47:38] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jan/2026 02:47:39] "OPTIONS /api/generate-schedule HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jan/2026 02:47:40] "POST /api/generate-schedule HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jan/2026 02:47:40] "GET /api/schedule HTTP/1.1" 200 -

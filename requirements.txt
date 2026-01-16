@@ -6,4 +6,8 @@ streamlit>=1.53.0
 pandas>=2.3.0
 numpy>=2.4.0
 
+# API dependencies
+flask>=3.1.0
+flask-cors>=6.0.0
+
 # Python 3.7+ recommended
