@@ -202,5 +202,5 @@ def get_activities():
         return jsonify({"success": False, "error": str(e)}), 500
 
 if __name__ == '__main__':
-    port = int(os.getenv('PORT', 5001))
+    port = int(os.getenv(5001))
     app.run(debug=False, port=port, host='0.0.0.0')
