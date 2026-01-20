@@ -2,7 +2,9 @@
  * API service for communicating with the Flask backend
  */
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001/api';
+// Use relative URL for Vercel deployment, fallback to localhost for development
+const API_BASE_URL = process.env.REACT_APP_API_URL || 
+  (process.env.NODE_ENV === 'production' ? '/api' : 'http://localhost:5001/api');
 
 export interface ScheduleActivity {
   activity_id: string;
@@ -100,8 +102,35 @@ class ApiService {
     }
   }
 
-  downloadFile(fileType: 'text' | 'html' | 'ics' | 'json'): void {
-    window.open(`${API_BASE_URL}/download/${fileType}`, '_blank');
+  async downloadFile(fileType: 'text' | 'html' | 'ics' | 'json'): Promise<void> {
+    try {
+      const response = await fetch(`${API_BASE_URL}/download/${fileType}`);
+      const data = await response.json();
+      
+      if (data.success && data.content) {
+        // Decode base64 content
+        const binaryString = atob(data.content);
+        const bytes = new Uint8Array(binaryString.length);
+        for (let i = 0; i < binaryString.length; i++) {
+          bytes[i] = binaryString.charCodeAt(i);
+        }
+        
+        // Create blob and download
+        const blob = new Blob([bytes], { type: data.contentType });
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = data.filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        window.URL.revokeObjectURL(url);
+      } else {
+        console.error('Download failed:', data.error);
+      }
+    } catch (error) {
+      console.error('Download error:', error);
+    }
   }
 }
 
