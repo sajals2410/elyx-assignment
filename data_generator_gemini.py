@@ -14,24 +14,46 @@ import random
 import os
 from datetime import datetime, timedelta
 from typing import List, Dict, Any, Optional
+
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # python-dotenv not installed, skip
+
+# Try to import Gemini packages
 try:
     import google.genai as genai
+    GENAI_VERSION = 'new'
 except ImportError:
-    # Fallback to deprecated package
-    import google.generativeai as genai
+    try:
+        import google.generativeai as genai
+        GENAI_VERSION = 'old'
+    except ImportError:
+        genai = None
+        GENAI_VERSION = None
+
 from models import (
     Activity, ActivityType, Frequency, TimeSlot,
     Equipment, Specialist, AlliedHealth, TravelPlan, ClientSchedule
 )
 
-# Load Gemini API key
+# Load Gemini API key (after loading .env)
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
 if not GEMINI_API_KEY:
     print(" Warning: GEMINI_API_KEY not set. Please set it in environment or .env file")
     print("   You can get a free API key from: https://makersuite.google.com/app/apikey")
 
-if GEMINI_API_KEY:
-    genai.configure(api_key=GEMINI_API_KEY)
+# Configure Gemini API based on version
+if GEMINI_API_KEY and genai:
+    if GENAI_VERSION == 'old':
+        # Old google.generativeai package - use configure
+        try:
+            genai.configure(api_key=GEMINI_API_KEY)
+        except AttributeError:
+            pass  # Already configured or different API
+    # New google.genai package doesn't need configure - key passed per call
 
 
 class GeminiDataGenerator:
@@ -57,21 +79,34 @@ class GeminiDataGenerator:
         
         if GEMINI_API_KEY and genai:
             try:
-                if GENAI_NEW:
-                    # New package - try different initialization methods
+                if GENAI_VERSION == 'new':
+                    # New google.genai package - use Client API
                     try:
-                        self.model = genai.GenerativeModel('gemini-pro', api_key=GEMINI_API_KEY)
-                    except:
-                        # Alternative initialization
-                        genai.configure(api_key=GEMINI_API_KEY)
-                        self.model = genai.GenerativeModel('gemini-pro')
-                else:
-                    # Old package
+                        from google.genai import Client
+                        self.client = Client(api_key=GEMINI_API_KEY)
+                        self.use_client = True
+                        self.model = None  # Not used with Client API
+                    except Exception as e:
+                        print(f"   Warning: Could not initialize new Gemini Client: {e}")
+                        print("   Falling back to template-based generation")
+                        self.client = None
+                        self.use_client = False
+                        self.model = None
+                elif GENAI_VERSION == 'old':
+                    # Old google.generativeai package
                     self.model = genai.GenerativeModel('gemini-pro')
+                    self.use_client = False
+                    self.client = None
+                else:
+                    self.model = None
+                    self.use_client = False
+                    self.client = None
             except Exception as e:
                 print(f" Error initializing Gemini: {e}")
                 print("   Falling back to template-based generation")
                 self.model = None
+                self.use_client = False
+                self.client = None
         else:
             self.model = None
             if not GEMINI_API_KEY:
@@ -89,19 +124,38 @@ class GeminiDataGenerator:
         Returns:
             Generated text or None if failed
         """
-        if not self.model:
+        if not hasattr(self, 'use_client') or (not self.use_client and not self.model):
             return None
         
         for attempt in range(max_retries):
             try:
-                response = self.model.generate_content(prompt)
-                # Handle both new and old package response formats
-                if hasattr(response, 'text'):
-                    return response.text
-                elif hasattr(response, 'candidates') and response.candidates:
-                    return response.candidates[0].content.parts[0].text
+                if self.use_client and hasattr(self, 'client') and self.client:
+                    # New google.genai Client API
+                    response = self.client.models.generate_content(
+                        model='gemini-pro',
+                        contents=prompt
+                    )
+                    # Extract text from response
+                    if hasattr(response, 'text'):
+                        return response.text
+                    elif hasattr(response, 'candidates') and response.candidates:
+                        return response.candidates[0].content.parts[0].text
+                    elif hasattr(response, 'content') and hasattr(response.content, 'parts'):
+                        return response.content.parts[0].text
+                    else:
+                        return str(response)
+                elif self.model:
+                    # Old google.generativeai package
+                    response = self.model.generate_content(prompt)
+                    # Handle both response formats
+                    if hasattr(response, 'text'):
+                        return response.text
+                    elif hasattr(response, 'candidates') and response.candidates:
+                        return response.candidates[0].content.parts[0].text
+                    else:
+                        return str(response)
                 else:
-                    return str(response)
+                    return None
             except Exception as e:
                 if attempt < max_retries - 1:
                     print(f"   Retry {attempt + 1}/{max_retries}...")

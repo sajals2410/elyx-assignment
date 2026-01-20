@@ -1,0 +1,75 @@
+# Vercel ignore file - exclude large/unnecessary files from deployment
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Node modules (handled separately)
+node_modules/
+frontend/node_modules/
+
+# Build artifacts
+frontend/build/
+dist/
+*.egg-info/
+
+# Generated data and output
+data/
+output/
+
+# Documentation (not needed for runtime)
+*.md
+*.pdf
+*.txt
+!requirements.txt
+!README.md
+
+# Development scripts
+*.sh
+main.py
+api.py
+app.py
+test_*.py
+convert_*.py
+
+# Logs and runtime files
+*.log
+*.pid
+api.log
+api.pid
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files (handled by Vercel)
+.env
+.env.local
+
+# Git
+.git/
+.gitignore
+
+# Vercel
+.vercel/
+
+# Large documentation files
+PROJECT_REPORT.pdf
+INTERVIEW_QUESTIONS.pdf
+INTERVIEW_DEEP_DIVE.pdf
+SYSTEM_DESIGN.pdf

@@ -21,3 +21,226 @@
 127.0.0.1 - - [17/Jan/2026 02:47:39] "OPTIONS /api/generate-schedule HTTP/1.1" 200 -
 127.0.0.1 - - [17/Jan/2026 02:47:40] "POST /api/generate-schedule HTTP/1.1" 200 -
 127.0.0.1 - - [17/Jan/2026 02:47:40] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:06:00] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:13:01] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:13:19] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:13:19] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:13:19] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:13:19] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:13:35] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:13:35] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:13:35] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:13:35] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:13:41] "OPTIONS /api/generate-schedule HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:13:43] "POST /api/generate-schedule HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 00:13:43] "GET /api/schedule HTTP/1.1" 200 -
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/convert_to_pdf.py', reloading
+✓ Text calendar saved to output/schedule_text.txt
+✓ HTML calendar saved to output/schedule.html
+✓ iCalendar file saved to output/schedule.ics
+✓ JSON summary saved to output/schedule_summary.json
+✓ Text calendar saved to output/schedule_text.txt
+✓ HTML calendar saved to output/schedule.html
+✓ iCalendar file saved to output/schedule.ics
+✓ JSON summary saved to output/schedule_summary.json
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+127.0.0.1 - - [19/Jan/2026 01:43:21] "OPTIONS /api/generate-schedule HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jan/2026 01:43:22] "POST /api/generate-schedule HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jan/2026 01:43:22] "GET /api/schedule HTTP/1.1" 200 -
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/main.py', reloading
+✓ Text calendar saved to output/schedule_text.txt
+✓ HTML calendar saved to output/schedule.html
+✓ iCalendar file saved to output/schedule.ics
+✓ JSON summary saved to output/schedule_summary.json
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api.py', reloading
+ * Restarting with stat
+/Users/sajalsingh/Desktop/projectelyx/data_generator_gemini.py:17: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api.py', reloading
+⚠️  Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+/Users/sajalsingh/Desktop/projectelyx/data_generator_gemini.py:17: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api.py', reloading
+⚠️  Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+/Users/sajalsingh/Desktop/projectelyx/data_generator_gemini.py:17: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/data_generator_gemini.py', reloading
+⚠️  Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/data_generator_gemini.py', reloading
+⚠️  Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/data_generator_gemini.py', reloading
+⚠️  Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/data_generator_gemini.py', reloading
+⚠️  Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/data_generator_gemini.py', reloading
+⚠️  Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/data_generator_gemini.py', reloading
+⚠️  Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+127.0.0.1 - - [20/Jan/2026 02:27:07] "OPTIONS /api/generate-schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:27:08] "POST /api/generate-schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:27:08] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:27:25] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:27:25] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:32:17] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:32:17] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:32:17] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:32:17] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:32:35] "OPTIONS /api/generate-schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:32:36] "POST /api/generate-schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:32:36] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:32:44] "GET /api/download/ics HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:33:52] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:34:45] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:34:45] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:34:45] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 02:34:45] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 03:54:20] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 03:54:20] "GET /api/schedule HTTP/1.1" 200 -
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/convert_system_design_to_pdf.py', reloading
+⚠️  Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+✓ Text calendar saved to output/schedule_text.txt
+✓ HTML calendar saved to output/schedule.html
+✓ iCalendar file saved to output/schedule.ics
+✓ JSON summary saved to output/schedule_summary.json
+✓ Text calendar saved to output/schedule_text.txt
+✓ HTML calendar saved to output/schedule.html
+✓ iCalendar file saved to output/schedule.ics
+✓ JSON summary saved to output/schedule_summary.json
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+127.0.0.1 - - [20/Jan/2026 05:25:37] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 05:25:37] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 05:25:37] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 05:25:37] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 05:25:37] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 05:25:37] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 05:25:37] "GET /api/schedule HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jan/2026 05:25:37] "GET /api/schedule HTTP/1.1" 200 -
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/test_gemini.py', reloading
+⚠️  Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api/statistics.py', reloading
+ Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api/health.py', reloading
+ Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api/generate-data.py', reloading
+ Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api/generate-schedule.py', reloading
+ Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api/schedule.py', reloading
+ Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api/statistics.py', reloading
+ Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api/download.py', reloading
+ Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+ * Detected change in '/Users/sajalsingh/Desktop/projectelyx/api/activities.py', reloading
+ Warning: GEMINI_API_KEY not set. Please set it in environment or .env file
+   You can get a free API key from: https://makersuite.google.com/app/apikey
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-776-077
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

@@ -10,6 +10,13 @@ import json
 from pathlib import Path
 from datetime import datetime, timedelta
 
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # python-dotenv not installed, skip
+
 # Import our modules
 from data_generator import DataGenerator
 from data_generator_gemini import GeminiDataGenerator

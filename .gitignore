@@ -1,27 +1,218 @@
-# Virtual Environment
+# ============================================
+# VIRTUAL ENVIRONMENT
+# ============================================
 venv/
 env/
 ENV/
 .venv
+venv.bak/
+env.bak/
 
-# Python
+# ============================================
+# PYTHON
+# ============================================
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
 .Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
-# IDE
+# ============================================
+# DATABASES (Local Database Files)
+# ============================================
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# PostgreSQL
+*.pgsql
+*.pgdump
+
+# MySQL
+*.sql
+*.mysqldump
+
+# MongoDB
+*.bson
+
+# Redis
+dump.rdb
+
+# Database directories
+db/
+database/
+*.db-journal
+
+# ============================================
+# IDE & EDITORS
+# ============================================
+.vscode/
+.idea/
 *.swp
 *.swo
 *~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
 
-# OS
+# ============================================
+# OS FILES
+# ============================================
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+Desktop.ini
 
-# Environment variables (API keys, secrets)
+# ============================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ============================================
 .env
 .env.local
+.env.*.local
+.env.production
+.env.development
+*.key
+*.pem
+*.cert
+secrets/
+.secrets
 
-# Project specific
-# Keep data/ and output/ directories but ignore large generated files if needed
+# ============================================
+# VERCEL
+# ============================================
+.vercel/
+.vercelignore.bak
+
+# ============================================
+# GENERATED DATA & OUTPUT
+# ============================================
+data/
+!data/.gitkeep
+output/
+!output/.gitkeep
+*.json.bak
+*.csv.bak
+
+# ============================================
+# LOGS & RUNTIME FILES
+# ============================================
+*.log
+*.pid
+*.lock
+api.log
+api.pid
+*.out
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ============================================
+# BUILD ARTIFACTS
+# ============================================
+frontend/build/
+frontend/dist/
+frontend/node_modules/
+node_modules/
+.npm
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# ============================================
+# DEVELOPMENT/TESTING SCRIPTS (Not needed)
+# ============================================
+main.py
+api.py
+app.py
+test_*.py
+*_test.py
+tests/
+test/
+
+# ============================================
+# PDF CONVERSION SCRIPTS (Not needed)
+# ============================================
+convert_to_pdf.py
+convert_to_pdf_v2.py
+convert_system_design_to_pdf.py
+convert_system_design_to_pdf_enhanced.py
+
+# ============================================
+# SHELL SCRIPTS (Local development only)
+# ============================================
+*.sh
+!setup.sh.example
+
+# ============================================
+# DOCUMENTATION FILES (Optional - keep or remove)
+# ============================================
+# Uncomment to ignore all documentation
+# *.md
+# !README.md
+# *.pdf
+
+# ============================================
+# TEMPORARY & BACKUP FILES
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*~
+.cache/
+tmp/
+temp/
+
+# ============================================
+# OTHER UNNECESSARY FILES
+# ============================================
+QUICK_START_GEMINI.txt
+requirements-full.txt
+requirements-vercel.txt
+# Keep only requirements.txt for deployment
+
+# ============================================
+# PACKAGE MANAGER FILES
+# ============================================
+package-lock.json.bak
+yarn.lock.bak
+Pipfile.lock
+poetry.lock
+
+# ============================================
+# JUPYTER NOTEBOOKS (if any)
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# DOCKER (if used)
+# ============================================
+.dockerignore.bak
+docker-compose.override.yml
