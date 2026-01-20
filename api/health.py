@@ -3,17 +3,12 @@ Health check endpoint for Vercel serverless function
 """
 
 import json
-import sys
-import os
 
-# Add parent directory to path to import modules
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-
-def handler(req):
+def handler(request):
     """Vercel serverless function handler."""
     try:
         # Handle CORS preflight
-        method = getattr(req, 'method', 'GET')
+        method = request.method if hasattr(request, 'method') else 'GET'
         if method == 'OPTIONS':
             return {
                 'statusCode': 200,
@@ -39,6 +34,7 @@ def handler(req):
             })
         }
     except Exception as e:
+        import traceback
         return {
             'statusCode': 500,
             'headers': {
@@ -47,6 +43,7 @@ def handler(req):
             },
             'body': json.dumps({
                 "status": "error",
-                "error": str(e)
+                "error": str(e),
+                "traceback": traceback.format_exc()
             })
         }

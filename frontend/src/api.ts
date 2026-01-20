@@ -2,9 +2,13 @@
  * API service for communicating with the Flask backend
  */
 
-// Use relative URL for Vercel deployment, fallback to localhost for development
+// API URL configuration
+// Set REACT_APP_API_URL in Vercel environment variables for production
+// Or update this directly for Railway backend
 const API_BASE_URL = process.env.REACT_APP_API_URL || 
-  (process.env.NODE_ENV === 'production' ? '/api' : 'http://localhost:5001/api');
+  (process.env.NODE_ENV === 'production' 
+    ? 'https://your-api.railway.app/api'  // Update with your Railway URL
+    : 'http://localhost:5001/api');
 
 export interface ScheduleActivity {
   activity_id: string;
@@ -42,21 +46,31 @@ export interface ScheduleData {
 class ApiService {
   async healthCheck(): Promise<boolean> {
     try {
-      const response = await fetch(`${API_BASE_URL}/health`);
+      console.log('Health check: Connecting to', `${API_BASE_URL}/health`);
+      const response = await fetch(`${API_BASE_URL}/health`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        mode: 'cors',
+      });
+      console.log('Health check response status:', response.status);
       if (!response.ok) {
-        console.error('Health check failed:', response.status, response.statusText);
+        const text = await response.text();
+        console.error('Health check failed:', response.status, response.statusText, text);
         return false;
       }
       const contentType = response.headers.get('content-type');
       if (!contentType || !contentType.includes('application/json')) {
         const text = await response.text();
-        console.error('Expected JSON but got:', text.substring(0, 100));
+        console.error('Expected JSON but got:', contentType, text.substring(0, 100));
         return false;
       }
       const data = await response.json();
+      console.log('Health check data:', data);
       return data.status === 'ok';
-    } catch (error) {
-      console.error('Health check failed:', error);
+    } catch (error: any) {
+      console.error('Health check failed:', error.message, error);
       return false;
     }
   }
