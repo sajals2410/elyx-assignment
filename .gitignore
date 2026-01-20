@@ -8,12 +8,9 @@ ENV/
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
 .Python
 
 # IDE
-.vscode/
-.idea/
 *.swp
 *.swo
 *~
@@ -21,6 +18,10 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Environment variables (API keys, secrets)
+.env
+.env.local
 
 # Project specific
 # Keep data/ and output/ directories but ignore large generated files if needed

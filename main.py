@@ -25,8 +25,10 @@ from datetime import datetime
 
 # Import our modules
 from data_generator import DataGenerator
+from data_generator_gemini import GeminiDataGenerator
 from scheduler import ResourceAllocator, load_data
 from calendar_output import CalendarFormatter, generate_all_outputs
+import os
 
 
 def ensure_directories():
@@ -36,12 +38,12 @@ def ensure_directories():
     print("✓ Directories created/verified")
 
 
-def generate_test_data(start_date: str = "2026-01-15", duration_months: int = 3):
+def generate_test_data(start_date: str = "2026-01-15", duration_months: int = 3, use_gemini: bool = True):
     """
     Generate all test data for the Resource Allocator.
     
     This creates:
-    - 100+ realistic health activities
+    - 100+ realistic health activities (using Gemini AI if API key available)
     - Equipment availability for 3 months
     - Specialist schedules for 3 months
     - Allied health professional schedules
@@ -51,12 +53,24 @@ def generate_test_data(start_date: str = "2026-01-15", duration_months: int = 3)
     Args:
         start_date: Start date for the schedules
         duration_months: Number of months to generate
+        use_gemini: Whether to use Gemini AI (falls back to templates if no API key)
     """
     print("\n" + "=" * 60)
     print("📊 GENERATING TEST DATA")
     print("=" * 60)
     
-    generator = DataGenerator(start_date=start_date, duration_months=duration_months)
+    # Check if Gemini API key is available
+    gemini_api_key = os.getenv('GEMINI_API_KEY', '')
+    
+    if use_gemini and gemini_api_key:
+        print("🤖 Using Gemini AI for activity generation...")
+        generator = GeminiDataGenerator(start_date=start_date, duration_months=duration_months)
+    else:
+        if use_gemini:
+            print(" GEMINI_API_KEY not found, using template-based generation")
+            print("   Set GEMINI_API_KEY environment variable to use AI generation")
+        generator = DataGenerator(start_date=start_date, duration_months=duration_months)
+    
     data = generator.save_all_data("data")
     
     print(f"\n✓ Generated {len(data['activities'])} activities")

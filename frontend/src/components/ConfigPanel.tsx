@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './ConfigPanel.css';
 
 interface ConfigPanelProps {
-  onGenerate: (startDate: string, weeks: number, regenerateData: boolean) => void;
+  onGenerate: (startDate: string, weeks: number, regenerateData: boolean, useGemini: boolean) => void;
   loading: boolean;
 }
 
@@ -10,10 +10,11 @@ const ConfigPanel: React.FC<ConfigPanelProps> = ({ onGenerate, loading }) => {
   const [startDate, setStartDate] = useState('2026-01-15');
   const [weeks, setWeeks] = useState(2);
   const [regenerateData, setRegenerateData] = useState(false);
+  const [useGemini, setUseGemini] = useState(true);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onGenerate(startDate, weeks, regenerateData);
+    onGenerate(startDate, weeks, regenerateData, useGemini);
   };
 
   return (
@@ -56,6 +57,20 @@ const ConfigPanel: React.FC<ConfigPanelProps> = ({ onGenerate, loading }) => {
             />
             Regenerate Test Data
           </label>
+        </div>
+
+        <div className="form-group checkbox-group">
+          <label>
+            <input
+              type="checkbox"
+              checked={useGemini}
+              onChange={(e) => setUseGemini(e.target.checked)}
+            />
+            🤖 Use Gemini AI for Activity Generation
+          </label>
+          <small style={{display: 'block', marginTop: '0.5rem', color: '#666', fontSize: '0.85em'}}>
+            Requires GEMINI_API_KEY environment variable. Falls back to templates if not set.
+          </small>
         </div>
 
         <button type="submit" className="generate-btn" disabled={loading}>

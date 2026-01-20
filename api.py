@@ -12,8 +12,10 @@ from datetime import datetime, timedelta
 
 # Import our modules
 from data_generator import DataGenerator
+from data_generator_gemini import GeminiDataGenerator
 from scheduler import ResourceAllocator, load_data
 from calendar_output import CalendarFormatter, generate_all_outputs
+import os
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for React frontend
@@ -25,21 +27,35 @@ def health():
 
 @app.route('/api/generate-data', methods=['POST'])
 def generate_data():
-    """Generate test data."""
+    """Generate test data using Gemini AI if available."""
     try:
         data = request.json
         start_date = data.get('start_date', '2026-01-15')
         duration_months = data.get('duration_months', 3)
+        use_gemini = data.get('use_gemini', True)
         
-        generator = DataGenerator(
-            start_date=start_date,
-            duration_months=duration_months
-        )
+        # Check if Gemini API key is available
+        gemini_api_key = os.getenv('GEMINI_API_KEY', '')
+        
+        if use_gemini and gemini_api_key:
+            generator = GeminiDataGenerator(
+                start_date=start_date,
+                duration_months=duration_months
+            )
+            method = "Gemini AI"
+        else:
+            generator = DataGenerator(
+                start_date=start_date,
+                duration_months=duration_months
+            )
+            method = "Template-based"
+        
         result = generator.save_all_data("data")
         
         return jsonify({
             "success": True,
-            "message": "Data generated successfully",
+            "message": f"Data generated successfully using {method}",
+            "method": method,
             "activities": len(result['activities']),
             "equipment": len(result['equipment']),
             "specialists": len(result['specialists']),

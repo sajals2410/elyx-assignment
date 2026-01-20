@@ -20,7 +20,7 @@ function App() {
       if (connected) {
         loadSchedule();
       } else {
-        setError('Cannot connect to API. Make sure the Flask server is running on port 5000.');
+        setError('Cannot connect to API. Make sure the Flask server is running on port 5001.');
       }
     });
   }, []);
@@ -38,14 +38,14 @@ function App() {
     }
   };
 
-  const handleGenerate = async (startDate: string, weeks: number, regenerateData: boolean) => {
+  const handleGenerate = async (startDate: string, weeks: number, regenerateData: boolean, useGemini: boolean) => {
     setLoading(true);
     setError(null);
 
     try {
       // Generate data if needed
       if (regenerateData) {
-        const dataResult = await apiService.generateData(startDate, 3);
+        const dataResult = await apiService.generateData(startDate, 3, useGemini);
         if (!dataResult.success) {
           throw new Error(dataResult.error || 'Failed to generate data');
         }

@@ -8,37 +8,37 @@
       {
         "date": "2026-01-15",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-15",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-16",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-16",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-17",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
-      },
-      {
-        "date": "2026-01-16",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-16",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-17",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-17",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
       },
       {
         "date": "2026-01-18",
@@ -64,16 +64,9 @@
       {
         "date": "2026-01-20",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-20",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-21",
@@ -92,37 +85,37 @@
       {
         "date": "2026-01-22",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-22",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-23",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-23",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-24",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
-      },
-      {
-        "date": "2026-01-23",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-23",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-24",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-24",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
       },
       {
         "date": "2026-01-25",
@@ -148,16 +141,9 @@
       {
         "date": "2026-01-27",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-27",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-28",
@@ -176,37 +162,37 @@
       {
         "date": "2026-01-29",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-29",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-30",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-30",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-31",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
-      },
-      {
-        "date": "2026-01-30",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-30",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-31",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-31",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
       },
       {
         "date": "2026-02-01",
@@ -232,16 +218,9 @@
       {
         "date": "2026-02-03",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-03",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-04",
@@ -260,37 +239,37 @@
       {
         "date": "2026-02-05",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-05",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-06",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-06",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-07",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
-      },
-      {
-        "date": "2026-02-06",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-06",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-07",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-07",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
       },
       {
         "date": "2026-02-08",
@@ -302,23 +281,23 @@
       {
         "date": "2026-02-09",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-02-10",
-        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-02-10",
+        "date": "2026-02-09",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-02-10",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-11",
@@ -337,37 +316,37 @@
       {
         "date": "2026-02-12",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-12",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-13",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-13",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-14",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
-      },
-      {
-        "date": "2026-02-13",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-13",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-14",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-14",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
       },
       {
         "date": "2026-02-15",
@@ -393,16 +372,9 @@
       {
         "date": "2026-02-17",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-17",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-18",
@@ -421,37 +393,37 @@
       {
         "date": "2026-02-19",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-19",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-20",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-20",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-21",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
-      },
-      {
-        "date": "2026-02-20",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-20",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-21",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-21",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
       },
       {
         "date": "2026-02-22",
@@ -477,16 +449,9 @@
       {
         "date": "2026-02-24",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-24",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-25",
@@ -505,37 +470,30 @@
       {
         "date": "2026-02-26",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-26",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-27",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-02-27",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-27",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-02-28",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-28",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-01",
@@ -561,16 +519,9 @@
       {
         "date": "2026-03-03",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-03",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-04",
@@ -589,37 +540,37 @@
       {
         "date": "2026-03-05",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-05",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-06",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-06",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-07",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
-      },
-      {
-        "date": "2026-03-06",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-06",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-07",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-07",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
       },
       {
         "date": "2026-03-08",
@@ -645,39 +596,32 @@
       {
         "date": "2026-03-10",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-10",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-11",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-11",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-12",
         "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
+        "date": "2026-03-12",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-12",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
         "date": "2026-03-13",
         "start_time": "08:00",
         "end_time": "12:00",
@@ -694,16 +638,9 @@
       {
         "date": "2026-03-14",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-14",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-15",
@@ -729,16 +666,9 @@
       {
         "date": "2026-03-17",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-17",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-18",
@@ -757,37 +687,37 @@
       {
         "date": "2026-03-19",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-19",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-20",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-20",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-21",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
-      },
-      {
-        "date": "2026-03-20",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-20",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-21",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-21",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
       },
       {
         "date": "2026-03-22",
@@ -813,16 +743,9 @@
       {
         "date": "2026-03-24",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-24",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-25",
@@ -841,37 +764,37 @@
       {
         "date": "2026-03-26",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-26",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-27",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-27",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-28",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
-      },
-      {
-        "date": "2026-03-27",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-27",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-28",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-28",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
       },
       {
         "date": "2026-03-29",
@@ -897,16 +820,9 @@
       {
         "date": "2026-03-31",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-31",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-01",
@@ -925,37 +841,37 @@
       {
         "date": "2026-04-02",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-02",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-03",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-03",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-04",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
-      },
-      {
-        "date": "2026-04-03",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-03",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-04",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-04",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
       },
       {
         "date": "2026-04-05",
@@ -981,16 +897,9 @@
       {
         "date": "2026-04-07",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-07",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-08",
@@ -1009,37 +918,37 @@
       {
         "date": "2026-04-09",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-09",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-10",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-10",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-11",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
-      },
-      {
-        "date": "2026-04-10",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-10",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-11",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-11",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
       },
       {
         "date": "2026-04-12",
@@ -1065,16 +974,9 @@
       {
         "date": "2026-04-14",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-14",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       }
     ]
   },
@@ -1087,37 +989,30 @@
       {
         "date": "2026-01-15",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-15",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-16",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-01-16",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-01-17",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-01-17",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-18",
@@ -1129,16 +1024,9 @@
       {
         "date": "2026-01-19",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-19",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-20",
@@ -1171,37 +1059,30 @@
       {
         "date": "2026-01-22",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-22",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-23",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-01-23",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-01-24",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-01-24",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-25",
@@ -1255,37 +1136,30 @@
       {
         "date": "2026-01-29",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-29",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-30",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-01-30",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-01-31",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-01-31",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-01",
@@ -1339,37 +1213,30 @@
       {
         "date": "2026-02-05",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-05",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-06",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-02-06",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-02-07",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-02-07",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-08",
@@ -1381,16 +1248,9 @@
       {
         "date": "2026-02-09",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-09",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-10",
@@ -1423,37 +1283,30 @@
       {
         "date": "2026-02-12",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-12",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-13",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-02-13",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-02-14",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-02-14",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-15",
@@ -1493,51 +1346,37 @@
       {
         "date": "2026-02-18",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-18",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-19",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-19",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-20",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-02-20",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-02-21",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-02-21",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-22",
@@ -1577,30 +1416,16 @@
       {
         "date": "2026-02-25",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-25",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-26",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-26",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-27",
@@ -1612,9 +1437,16 @@
       {
         "date": "2026-02-28",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-28",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-01",
@@ -1668,37 +1500,30 @@
       {
         "date": "2026-03-05",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-05",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-06",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-03-06",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-03-07",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-03-07",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-08",
@@ -1752,37 +1577,30 @@
       {
         "date": "2026-03-12",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-12",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-13",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-03-13",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-03-14",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-03-14",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-15",
@@ -1836,37 +1654,30 @@
       {
         "date": "2026-03-19",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-19",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-20",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-03-20",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-03-21",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-03-21",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-22",
@@ -1920,37 +1731,30 @@
       {
         "date": "2026-03-26",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-26",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-27",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-03-27",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-03-28",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-03-28",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-29",
@@ -2004,37 +1808,30 @@
       {
         "date": "2026-04-02",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-02",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-03",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-04-03",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-04-04",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-04-04",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-05",
@@ -2088,37 +1885,30 @@
       {
         "date": "2026-04-09",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-09",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-10",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-04-10",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-04-11",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-04-11",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-12",
@@ -2166,16 +1956,30 @@
       {
         "date": "2026-01-15",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-15",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-16",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-16",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-17",
@@ -2201,65 +2005,65 @@
       {
         "date": "2026-01-19",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-19",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-20",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-01-20",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-20",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-01-21",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-01-21",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-01-22",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-01-22",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-23",
-        "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-01-24",
         "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-01-24",
+        "date": "2026-01-23",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-01-24",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-25",
@@ -2285,44 +2089,44 @@
       {
         "date": "2026-01-27",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-27",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-28",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-01-28",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-01-29",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-01-29",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-30",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-30",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-31",
@@ -2362,44 +2166,44 @@
       {
         "date": "2026-02-03",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-03",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-04",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-02-04",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-02-05",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-02-05",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-06",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-06",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-07",
@@ -2439,44 +2243,44 @@
       {
         "date": "2026-02-10",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-10",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-11",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-02-11",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-02-12",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-02-12",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-13",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-13",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-14",
@@ -2516,44 +2320,44 @@
       {
         "date": "2026-02-17",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-17",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-18",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-02-18",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-02-19",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-02-19",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-20",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-20",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-21",
@@ -2593,44 +2397,44 @@
       {
         "date": "2026-02-24",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-24",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-25",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-02-25",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-02-26",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-02-26",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-27",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-27",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-28",
@@ -2670,44 +2474,44 @@
       {
         "date": "2026-03-03",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-03",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-04",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-03-04",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-03-05",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-03-05",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-06",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-06",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-07",
@@ -2747,51 +2551,58 @@
       {
         "date": "2026-03-10",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-10",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-11",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-03-11",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-03-12",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-03-12",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-13",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-13",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-14",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-14",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-15",
@@ -2817,44 +2628,44 @@
       {
         "date": "2026-03-17",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-17",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-18",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-03-18",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-03-19",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-03-19",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-20",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-20",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-21",
@@ -2894,44 +2705,44 @@
       {
         "date": "2026-03-24",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-24",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-25",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-03-25",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-03-26",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-03-26",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-27",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-27",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-28",
@@ -2971,16 +2782,9 @@
       {
         "date": "2026-03-31",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-31",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-01",
@@ -2992,16 +2796,30 @@
       {
         "date": "2026-04-02",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-02",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-03",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-03",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-04",
@@ -3041,44 +2859,44 @@
       {
         "date": "2026-04-07",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-07",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-08",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-04-08",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-04-09",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-04-09",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-10",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-10",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-11",
@@ -3118,16 +2936,9 @@
       {
         "date": "2026-04-14",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-14",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       }
     ]
   },
@@ -3294,9 +3105,16 @@
       {
         "date": "2026-01-28",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-28",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-29",
@@ -3385,9 +3203,16 @@
       {
         "date": "2026-02-05",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-05",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-06",
@@ -3504,9 +3329,16 @@
       {
         "date": "2026-02-16",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-16",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-17",
@@ -3595,9 +3427,16 @@
       {
         "date": "2026-02-24",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-24",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-25",
@@ -4198,37 +4037,30 @@
       {
         "date": "2026-01-15",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-15",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-16",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-01-16",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-16",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-01-17",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-17",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-18",
@@ -4254,9 +4086,16 @@
       {
         "date": "2026-01-20",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-20",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-21",
@@ -4275,37 +4114,30 @@
       {
         "date": "2026-01-22",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-22",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-23",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-01-23",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-23",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-01-24",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-24",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-25",
@@ -4331,9 +4163,16 @@
       {
         "date": "2026-01-27",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-27",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-28",
@@ -4352,37 +4191,30 @@
       {
         "date": "2026-01-29",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-29",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-30",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-01-30",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-30",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-01-31",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-31",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-01",
@@ -4408,9 +4240,16 @@
       {
         "date": "2026-02-03",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-03",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-04",
@@ -4429,37 +4268,30 @@
       {
         "date": "2026-02-05",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-05",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-06",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-02-06",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-06",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-02-07",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-07",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-08",
@@ -4485,9 +4317,16 @@
       {
         "date": "2026-02-10",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-10",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-11",
@@ -4506,37 +4345,30 @@
       {
         "date": "2026-02-12",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-12",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-13",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-02-13",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-13",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-02-14",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-14",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-15",
@@ -4562,9 +4394,16 @@
       {
         "date": "2026-02-17",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-17",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-18",
@@ -4583,37 +4422,30 @@
       {
         "date": "2026-02-19",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-19",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-20",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-02-20",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-20",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-02-21",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-21",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-22",
@@ -4639,9 +4471,16 @@
       {
         "date": "2026-02-24",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-24",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-25",
@@ -4660,37 +4499,30 @@
       {
         "date": "2026-02-26",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-26",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-27",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-02-27",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-27",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-02-28",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-28",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-01",
@@ -4716,9 +4548,16 @@
       {
         "date": "2026-03-03",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-03",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-04",
@@ -4737,37 +4576,30 @@
       {
         "date": "2026-03-05",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-05",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-06",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-03-06",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-06",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-03-07",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-07",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-08",
@@ -4793,9 +4625,16 @@
       {
         "date": "2026-03-10",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-10",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-11",
@@ -4814,37 +4653,30 @@
       {
         "date": "2026-03-12",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-12",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-13",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-03-13",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-13",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-03-14",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-14",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-15",
@@ -4891,37 +4723,30 @@
       {
         "date": "2026-03-19",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-19",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-20",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-03-20",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-20",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-03-21",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-21",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-22",
@@ -4947,9 +4772,16 @@
       {
         "date": "2026-03-24",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-24",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-25",
@@ -4968,37 +4800,30 @@
       {
         "date": "2026-03-26",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-26",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-27",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-03-27",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-27",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-03-28",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-28",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-29",
@@ -5024,9 +4849,16 @@
       {
         "date": "2026-03-31",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-31",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-01",
@@ -5045,37 +4877,30 @@
       {
         "date": "2026-04-02",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-02",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-03",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-04-03",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-03",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-04-04",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-04",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-05",
@@ -5122,37 +4947,30 @@
       {
         "date": "2026-04-09",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-09",
+        "start_time": "13:00",
+        "end_time": "17:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-10",
+        "start_time": "08:00",
         "end_time": "17:00",
         "is_available": false,
         "notes": "Not available"
       },
       {
-        "date": "2026-04-10",
-        "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-10",
-        "start_time": "13:00",
-        "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
         "date": "2026-04-11",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-11",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-12",
@@ -5178,9 +4996,16 @@
       {
         "date": "2026-04-14",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-14",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       }
     ]
   },
@@ -5193,9 +5018,16 @@
       {
         "date": "2026-01-15",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-15",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-16",
@@ -5249,30 +5081,37 @@
       {
         "date": "2026-01-20",
         "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
+      },
+      {
+        "date": "2026-01-21",
+        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-01-20",
+        "date": "2026-01-21",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-01-21",
+        "date": "2026-01-22",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-22",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-23",
@@ -5326,30 +5165,37 @@
       {
         "date": "2026-01-27",
         "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
+      },
+      {
+        "date": "2026-01-28",
+        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-01-27",
+        "date": "2026-01-28",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-01-28",
+        "date": "2026-01-29",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-29",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-30",
@@ -5403,30 +5249,37 @@
       {
         "date": "2026-02-03",
         "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
+      },
+      {
+        "date": "2026-02-04",
+        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-02-03",
+        "date": "2026-02-04",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-02-04",
+        "date": "2026-02-05",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-05",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-06",
@@ -5480,30 +5333,37 @@
       {
         "date": "2026-02-10",
         "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
+      },
+      {
+        "date": "2026-02-11",
+        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-02-10",
+        "date": "2026-02-11",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-02-11",
+        "date": "2026-02-12",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-12",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-13",
@@ -5557,44 +5417,44 @@
       {
         "date": "2026-02-17",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
-        "date": "2026-02-17",
-        "start_time": "13:00",
-        "end_time": "17:00",
+        "date": "2026-02-18",
+        "start_time": "08:00",
+        "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
         "date": "2026-02-18",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-19",
-        "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-02-20",
         "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-02-20",
+        "date": "2026-02-19",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-02-20",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-21",
@@ -5634,30 +5494,37 @@
       {
         "date": "2026-02-24",
         "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
+      },
+      {
+        "date": "2026-02-25",
+        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-02-24",
+        "date": "2026-02-25",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-02-25",
+        "date": "2026-02-26",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-26",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-27",
@@ -5711,30 +5578,37 @@
       {
         "date": "2026-03-03",
         "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
+      },
+      {
+        "date": "2026-03-04",
+        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-03-03",
+        "date": "2026-03-04",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-03-04",
+        "date": "2026-03-05",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-05",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-06",
@@ -5788,30 +5662,37 @@
       {
         "date": "2026-03-10",
         "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
+      },
+      {
+        "date": "2026-03-11",
+        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-03-10",
+        "date": "2026-03-11",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-03-11",
+        "date": "2026-03-12",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-12",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-13",
@@ -5865,23 +5746,23 @@
       {
         "date": "2026-03-17",
         "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
+      },
+      {
+        "date": "2026-03-18",
+        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-03-17",
+        "date": "2026-03-18",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
-      },
-      {
-        "date": "2026-03-18",
-        "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
       },
       {
         "date": "2026-03-19",
@@ -5942,30 +5823,37 @@
       {
         "date": "2026-03-24",
         "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
+      },
+      {
+        "date": "2026-03-25",
+        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-03-24",
+        "date": "2026-03-25",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-03-25",
+        "date": "2026-03-26",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-26",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-27",
@@ -6019,30 +5907,37 @@
       {
         "date": "2026-03-31",
         "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
+      },
+      {
+        "date": "2026-04-01",
+        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-03-31",
+        "date": "2026-04-01",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-04-01",
+        "date": "2026-04-02",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-02",
-        "start_time": "08:00",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-03",
@@ -6096,16 +5991,9 @@
       {
         "date": "2026-04-07",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-07",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-08",
@@ -6117,9 +6005,16 @@
       {
         "date": "2026-04-09",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-09",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-10",
@@ -6173,16 +6068,9 @@
       {
         "date": "2026-04-14",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-14",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       }
     ]
   },
@@ -6251,23 +6139,23 @@
       {
         "date": "2026-01-20",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-01-21",
-        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-01-21",
+        "date": "2026-01-20",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-01-21",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-22",
@@ -6328,23 +6216,23 @@
       {
         "date": "2026-01-27",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-01-28",
-        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-01-28",
+        "date": "2026-01-27",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-01-28",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-29",
@@ -6405,23 +6293,23 @@
       {
         "date": "2026-02-03",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-02-04",
-        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-02-04",
+        "date": "2026-02-03",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-02-04",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-05",
@@ -6482,23 +6370,23 @@
       {
         "date": "2026-02-10",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-02-11",
-        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-02-11",
+        "date": "2026-02-10",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-02-11",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-12",
@@ -6559,9 +6447,16 @@
       {
         "date": "2026-02-17",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-17",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-18",
@@ -6629,23 +6524,23 @@
       {
         "date": "2026-02-24",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-02-25",
-        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-02-25",
+        "date": "2026-02-24",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-02-25",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-26",
@@ -6706,23 +6601,23 @@
       {
         "date": "2026-03-03",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-03-04",
-        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-03-04",
+        "date": "2026-03-03",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-03-04",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-05",
@@ -6783,9 +6678,16 @@
       {
         "date": "2026-03-10",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-10",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-11",
@@ -6853,23 +6755,23 @@
       {
         "date": "2026-03-17",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-03-18",
-        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-03-18",
+        "date": "2026-03-17",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-03-18",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-19",
@@ -6930,23 +6832,23 @@
       {
         "date": "2026-03-24",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-03-25",
-        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-03-25",
+        "date": "2026-03-24",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-03-25",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-26",
@@ -7007,23 +6909,23 @@
       {
         "date": "2026-03-31",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-04-01",
-        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-04-01",
+        "date": "2026-03-31",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-04-01",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-02",
@@ -7084,23 +6986,23 @@
       {
         "date": "2026-04-07",
         "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
-      },
-      {
-        "date": "2026-04-08",
-        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-04-08",
+        "date": "2026-04-07",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
+      },
+      {
+        "date": "2026-04-08",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-09",
@@ -7126,9 +7028,16 @@
       {
         "date": "2026-04-11",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-11",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-12",
@@ -7154,9 +7063,16 @@
       {
         "date": "2026-04-14",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-14",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       }
     ]
   },
@@ -7190,9 +7106,16 @@
       {
         "date": "2026-01-17",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-17",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-18",
@@ -7204,16 +7127,9 @@
       {
         "date": "2026-01-19",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-19",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-20",
@@ -7267,9 +7183,16 @@
       {
         "date": "2026-01-24",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-24",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-01-25",
@@ -7281,16 +7204,9 @@
       {
         "date": "2026-01-26",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-01-26",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-01-27",
@@ -7344,9 +7260,16 @@
       {
         "date": "2026-01-31",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-01-31",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-01",
@@ -7393,9 +7316,16 @@
       {
         "date": "2026-02-05",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-05",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-06",
@@ -7407,9 +7337,16 @@
       {
         "date": "2026-02-07",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-07",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-08",
@@ -7421,16 +7358,9 @@
       {
         "date": "2026-02-09",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-02-09",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-02-10",
@@ -7484,9 +7414,16 @@
       {
         "date": "2026-02-14",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-14",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-15",
@@ -7498,23 +7435,23 @@
       {
         "date": "2026-02-16",
         "start_time": "08:00",
+        "end_time": "17:00",
+        "is_available": false,
+        "notes": "Not available"
+      },
+      {
+        "date": "2026-02-17",
+        "start_time": "08:00",
         "end_time": "12:00",
         "is_available": true,
         "notes": ""
       },
       {
-        "date": "2026-02-16",
+        "date": "2026-02-17",
         "start_time": "13:00",
         "end_time": "17:00",
         "is_available": true,
         "notes": ""
-      },
-      {
-        "date": "2026-02-17",
-        "start_time": "08:00",
-        "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
       },
       {
         "date": "2026-02-18",
@@ -7554,9 +7491,16 @@
       {
         "date": "2026-02-21",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-21",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-02-22",
@@ -7624,9 +7568,16 @@
       {
         "date": "2026-02-28",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-02-28",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-01",
@@ -7638,16 +7589,9 @@
       {
         "date": "2026-03-02",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-02",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-03",
@@ -7701,9 +7645,16 @@
       {
         "date": "2026-03-07",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-07",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-08",
@@ -7715,16 +7666,9 @@
       {
         "date": "2026-03-09",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-09",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-10",
@@ -7778,9 +7722,16 @@
       {
         "date": "2026-03-14",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-14",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-15",
@@ -7792,16 +7743,9 @@
       {
         "date": "2026-03-16",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-16",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-17",
@@ -7855,9 +7799,16 @@
       {
         "date": "2026-03-21",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-21",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-22",
@@ -7869,16 +7820,9 @@
       {
         "date": "2026-03-23",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-23",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-24",
@@ -7932,9 +7876,16 @@
       {
         "date": "2026-03-28",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-03-28",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-03-29",
@@ -7946,16 +7897,9 @@
       {
         "date": "2026-03-30",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-03-30",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-03-31",
@@ -8009,9 +7953,16 @@
       {
         "date": "2026-04-04",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-04",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-05",
@@ -8023,16 +7974,9 @@
       {
         "date": "2026-04-06",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-06",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-07",
@@ -8065,16 +8009,9 @@
       {
         "date": "2026-04-09",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-09",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-10",
@@ -8086,9 +8023,16 @@
       {
         "date": "2026-04-11",
         "start_time": "08:00",
+        "end_time": "12:00",
+        "is_available": true,
+        "notes": ""
+      },
+      {
+        "date": "2026-04-11",
+        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": false,
-        "notes": "Not available"
+        "is_available": true,
+        "notes": ""
       },
       {
         "date": "2026-04-12",
@@ -8100,30 +8044,16 @@
       {
         "date": "2026-04-13",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-13",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       },
       {
         "date": "2026-04-14",
         "start_time": "08:00",
-        "end_time": "12:00",
-        "is_available": true,
-        "notes": ""
-      },
-      {
-        "date": "2026-04-14",
-        "start_time": "13:00",
         "end_time": "17:00",
-        "is_available": true,
-        "notes": ""
+        "is_available": false,
+        "notes": "Not available"
       }
     ]
   }

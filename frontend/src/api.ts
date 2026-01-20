@@ -49,7 +49,7 @@ class ApiService {
     }
   }
 
-  async generateData(startDate: string, durationMonths: number): Promise<any> {
+  async generateData(startDate: string, durationMonths: number, useGemini: boolean = true): Promise<any> {
     const response = await fetch(`${API_BASE_URL}/generate-data`, {
       method: 'POST',
       headers: {
@@ -58,6 +58,7 @@ class ApiService {
       body: JSON.stringify({
         start_date: startDate,
         duration_months: durationMonths,
+        use_gemini: useGemini,
       }),
     });
     return response.json();
