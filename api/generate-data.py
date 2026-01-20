@@ -15,21 +15,29 @@ from data_generator_gemini import GeminiDataGenerator
 
 def handler(req):
     """Vercel serverless function handler."""
-    # Handle CORS preflight
-    if req.method == 'OPTIONS':
-        return {
-            'statusCode': 200,
-            'headers': {
-                'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Methods': 'POST, OPTIONS',
-                'Access-Control-Allow-Headers': 'Content-Type'
-            },
-            'body': ''
-        }
-    
     try:
+        # Handle CORS preflight
+        method = getattr(req, 'method', 'POST')
+        if method == 'OPTIONS':
+            return {
+                'statusCode': 200,
+                'headers': {
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+                    'Access-Control-Allow-Headers': 'Content-Type'
+                },
+                'body': ''
+            }
+        
         # Parse request body
-        body = req.json if hasattr(req, 'json') else (json.loads(req.body) if req.body else {})
+        body = {}
+        if hasattr(req, 'json') and req.json:
+            body = req.json
+        elif hasattr(req, 'body') and req.body:
+            try:
+                body = json.loads(req.body)
+            except:
+                body = {}
         start_date = body.get('start_date', '2026-01-15')
         duration_months = body.get('duration_months', 3)
         use_gemini = body.get('use_gemini', True)

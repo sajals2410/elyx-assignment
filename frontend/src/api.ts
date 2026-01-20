@@ -43,6 +43,16 @@ class ApiService {
   async healthCheck(): Promise<boolean> {
     try {
       const response = await fetch(`${API_BASE_URL}/health`);
+      if (!response.ok) {
+        console.error('Health check failed:', response.status, response.statusText);
+        return false;
+      }
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        const text = await response.text();
+        console.error('Expected JSON but got:', text.substring(0, 100));
+        return false;
+      }
       const data = await response.json();
       return data.status === 'ok';
     } catch (error) {
@@ -63,6 +73,15 @@ class ApiService {
         use_gemini: useGemini,
       }),
     });
+    if (!response.ok) {
+      const text = await response.text();
+      throw new Error(`API error: ${response.status} - ${text.substring(0, 100)}`);
+    }
+    const contentType = response.headers.get('content-type');
+    if (!contentType || !contentType.includes('application/json')) {
+      const text = await response.text();
+      throw new Error(`Expected JSON but got: ${text.substring(0, 100)}`);
+    }
     return response.json();
   }
 
@@ -77,6 +96,15 @@ class ApiService {
         weeks: weeks,
       }),
     });
+    if (!response.ok) {
+      const text = await response.text();
+      throw new Error(`API error: ${response.status} - ${text.substring(0, 100)}`);
+    }
+    const contentType = response.headers.get('content-type');
+    if (!contentType || !contentType.includes('application/json')) {
+      const text = await response.text();
+      throw new Error(`Expected JSON but got: ${text.substring(0, 100)}`);
+    }
     return response.json();
   }
 

@@ -15,10 +15,13 @@ def handler(req):
     Main handler for Vercel serverless functions.
     Routes requests based on path.
     """
-    path = req.path.strip('/').split('/')
-    
-    # Get the endpoint name (e.g., /api/health -> health)
-    endpoint = path[-1] if path else 'health'
+    try:
+        # Get path from request
+        path_str = getattr(req, 'path', '') or getattr(req, 'url', '/api/health')
+        path = path_str.strip('/').split('/')
+        
+        # Get the endpoint name (e.g., /api/health -> health)
+        endpoint = path[-1] if path else 'health'
     
     # Route to appropriate handler
     if endpoint == 'health':
@@ -50,4 +53,16 @@ def handler(req):
                 'Access-Control-Allow-Origin': '*'
             },
             'body': json.dumps({"error": "Endpoint not found"})
+        }
+    except Exception as e:
+        return {
+            'statusCode': 500,
+            'headers': {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
+            },
+            'body': json.dumps({
+                "error": "Internal server error",
+                "message": str(e)
+            })
         }
