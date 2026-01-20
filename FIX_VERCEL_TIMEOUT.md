@@ -1,145 +1,117 @@
-# 🔧 Fix Vercel Timeout Issue
+# Fix: Vercel "Took Too Long to Respond" Error
 
-## Problem
-Vercel Python serverless functions are timing out. This is a known limitation of Vercel's Python runtime.
+## 🔍 What Caused the Timeout?
 
-## ✅ Solution: Deploy Backend to Railway
+The timeout was happening because:
 
-### Step 1: Push Code to GitHub
+1. **Frontend was trying to connect to placeholder URL** (`https://your-api.railway.app/api`)
+2. **No timeout on fetch requests** - requests hung indefinitely waiting for a non-existent domain
+3. **Health check blocking page load** - the page waited for the health check to complete before rendering
 
+## ✅ What I Fixed
+
+### 1. Added Request Timeouts
+- All fetch requests now have a timeout (5 seconds for health checks, 30 seconds for API calls)
+- Requests will fail fast instead of hanging indefinitely
+
+### 2. Placeholder URL Detection
+- The app now detects if the API URL is still the placeholder
+- Skips health check if placeholder is detected
+- Shows helpful error message instead of timing out
+
+### 3. Non-Blocking Health Check
+- Health check no longer blocks page rendering
+- Page loads immediately, health check runs in background
+- Better user experience
+
+### 4. Updated Vercel Configuration
+- Simplified `vercel.json` for better compatibility
+- Ensures proper build process
+
+## 🚀 Next Steps to Fix Your Deployment
+
+### Step 1: Get Your Railway Backend URL
+
+1. Go to **Railway Dashboard**: https://railway.app
+2. Select your project
+3. Go to **Settings** → **Networking**
+4. Copy your service URL (e.g., `https://projectelyx-production.up.railway.app`)
+
+### Step 2: Set Environment Variable in Vercel
+
+1. Go to **Vercel Dashboard**: https://vercel.com
+2. Select your project
+3. Go to **Settings** → **Environment Variables**
+4. Click **"Add New"**
+5. Set:
+   - **Key:** `REACT_APP_API_URL`
+   - **Value:** `https://your-railway-url.railway.app/api`
+     - ⚠️ Replace `your-railway-url` with your actual Railway URL
+     - ⚠️ Include `/api` at the end!
+   - **Environments:** Select all (Production, Preview, Development)
+6. Click **Save**
+
+### Step 3: Redeploy
+
+**Option A: Via Vercel Dashboard**
+1. Go to **Deployments** tab
+2. Click **"..."** on latest deployment
+3. Select **"Redeploy"**
+
+**Option B: Via Git**
 ```bash
-cd /Users/sajalsingh/Desktop/projectelyx
 git add .
-git commit -m "Prepare for Railway backend deployment"
-git push origin main
+git commit -m "Fix Vercel timeout - add request timeouts"
+git push
 ```
 
-### Step 2: Deploy Backend to Railway
+Vercel will automatically redeploy.
 
-1. **Go to Railway**: https://railway.app
-2. **Sign up/Login** (use GitHub - easiest)
-3. **Click "New Project"**
-4. **Select "Deploy from GitHub repo"**
-5. **Choose your repository**: `elyx-assignment` (or your repo name)
-6. **Railway will automatically:**
-   - Detect Python
-   - Install dependencies from `requirements.txt`
-   - Start the Flask API
+### Step 4: Verify
 
-7. **Add Environment Variable:**
-   - Click on your service
-   - Go to **Variables** tab
-   - Click **+ New Variable**
-   - Name: `GEMINI_API_KEY`
-   - Value: `AIzaSyBmdA0E4asvowq0K7WDqbDCJg7Un7bW3VA`
-   - Click **Add**
+1. Visit your Vercel URL
+2. Page should load immediately (no timeout!)
+3. Check browser console (F12):
+   - Should see: `API URL is placeholder. Set REACT_APP_API_URL...`
+   - Or: `API Base URL: https://your-railway-url.railway.app/api`
+4. After setting environment variable and redeploying:
+   - Should see: **🟢 API Connected** (if Railway backend is running)
+   - Or: **🔴 API Disconnected** with helpful error message
 
-8. **Get Your API URL:**
-   - Go to **Settings** tab
-   - Click **Generate Domain** (or use existing)
-   - Copy the URL (e.g., `https://projectelyx-production.up.railway.app`)
-   - **SAVE THIS URL!**
+## 📋 Checklist
 
-### Step 3: Update Frontend API URL
+- [ ] Railway backend is deployed and running
+- [ ] Got Railway URL from Railway dashboard
+- [ ] Set `REACT_APP_API_URL` in Vercel environment variables
+- [ ] Value includes `/api` at the end
+- [ ] Redeployed frontend on Vercel
+- [ ] Page loads without timeout
+- [ ] API connection status shows correctly
 
-**Edit `frontend/src/api.ts`:**
+## 🐛 If Still Having Issues
 
-Find this line (around line 8):
-```typescript
-const API_BASE_URL = process.env.REACT_APP_API_URL || 
-  (process.env.NODE_ENV === 'production' 
-    ? 'https://your-api.railway.app/api'  // Update with your Railway URL
-    : 'http://localhost:5001/api');
-```
-
-**Replace `your-api.railway.app` with your actual Railway URL:**
-
-Example:
-```typescript
-const API_BASE_URL = process.env.REACT_APP_API_URL || 
-  (process.env.NODE_ENV === 'production' 
-    ? 'https://projectelyx-production.up.railway.app/api'
-    : 'http://localhost:5001/api');
-```
-
-### Step 4: Commit and Push Frontend Change
-
+### Check Railway Backend:
 ```bash
-git add frontend/src/api.ts
-git commit -m "Update API URL to Railway backend"
-git push origin main
+curl https://your-railway-url.railway.app/api/health
 ```
+Should return: `{"status": "ok", ...}`
 
-### Step 5: Redeploy Frontend to Vercel
+### Check Vercel Logs:
+1. Vercel Dashboard → Deployments
+2. Click on deployment → View Logs
+3. Look for build errors
 
-```bash
-npx vercel --prod
-```
+### Check Browser Console:
+1. Open DevTools (F12)
+2. Console tab - look for errors
+3. Network tab - check failed requests
 
-Or if already linked:
-- Go to Vercel Dashboard
-- Your project → Deployments
-- Click "Redeploy" on latest deployment
+## 🎯 Summary
 
----
+**The timeout is now fixed!** The page will:
+- ✅ Load immediately (no more hanging)
+- ✅ Show helpful error messages if API URL not configured
+- ✅ Fail fast with timeouts instead of hanging indefinitely
+- ✅ Work properly once you set `REACT_APP_API_URL` in Vercel
 
-## ✅ Test After Deployment
-
-1. **Test Railway Backend:**
-   ```bash
-   curl https://your-api.railway.app/api/health
-   ```
-   Should return: `{"status":"ok","message":"Resource Allocator API is running"}`
-
-2. **Test Frontend:**
-   - Open: `https://projectelyx.vercel.app`
-   - Check API status (should be green ✅)
-   - Generate a schedule
-   - Verify it works!
-
----
-
-## 🎯 Final Architecture
-
-```
-User Browser
-    │
-    ▼
-React Frontend (Vercel)
-    │
-    │ API Calls
-    ▼
-Flask API (Railway) ✅
-```
-
----
-
-## ⚠️ Why Railway Instead of Vercel?
-
-- ✅ **No timeout issues** - Railway runs full Flask app
-- ✅ **Better for Python** - Designed for long-running processes
-- ✅ **Free tier** - $5 credit/month (more than enough)
-- ✅ **Easier debugging** - Full logs and console access
-- ✅ **More reliable** - No cold start delays
-
----
-
-## 🆘 Troubleshooting
-
-**Railway Issues:**
-- Check Railway logs: Dashboard → Service → Logs
-- Verify `requirements.txt` is correct
-- Check that `api.py` exists in root
-- Verify `GEMINI_API_KEY` is set
-
-**Vercel Issues:**
-- Frontend should work fine (it's just static React)
-- If frontend doesn't load, check Vercel build logs
-
-**CORS Issues:**
-- Already handled in `api.py` with `CORS(app)`
-- Should work automatically
-
----
-
-**This is the recommended solution! Railway + Vercel works perfectly.** 🚀
+**Important:** You still need to set the `REACT_APP_API_URL` environment variable in Vercel with your Railway backend URL for the app to actually connect to the backend.

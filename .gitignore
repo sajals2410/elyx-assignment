@@ -123,12 +123,15 @@ output/
 *.lock
 api.log
 api.pid
+frontend.log
+frontend.pid
 *.out
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
+*.pid.lock
 
 # ============================================
 # BUILD ARTIFACTS
@@ -145,8 +148,10 @@ node_modules/
 # ============================================
 # DEVELOPMENT/TESTING SCRIPTS (Not needed)
 # ============================================
+# NOTE: api.py is actually needed for Railway deployment!
+# If you're deploying, uncomment api.py from this list
 main.py
-api.py
+# api.py  # Uncomment this if not deploying
 app.py
 test_*.py
 *_test.py
@@ -188,6 +193,12 @@ convert_system_design_to_pdf_enhanced.py
 .cache/
 tmp/
 temp/
+*.swp
+*.swo
+*.swn
+*.swm
+*.#
+.#*
 
 # ============================================
 # OTHER UNNECESSARY FILES
@@ -196,6 +207,16 @@ QUICK_START_GEMINI.txt
 requirements-full.txt
 requirements-vercel.txt
 # Keep only requirements.txt for deployment
+
+# PDF Documentation Files (generated)
+*.pdf
+!README.pdf
+
+# Test HTML/JS Files (temporary testing)
+test_connection.html
+test_api_connection.js
+*.test.html
+*.test.js
 
 # ============================================
 # PACKAGE MANAGER FILES
@@ -216,3 +237,56 @@ poetry.lock
 # ============================================
 .dockerignore.bak
 docker-compose.override.yml
+
+# ============================================
+# DEPLOYMENT SCRIPTS (can be regenerated)
+# ============================================
+deploy_*.sh
+quick_deploy.sh
+diagnose.sh
+fix_connection.sh
+
+# ============================================
+# DOCUMENTATION FILES (deployment guides)
+# Keep main README.md, ignore deployment-specific docs
+# ============================================
+# Uncomment to ignore deployment documentation:
+# *_DEPLOYMENT*.md
+# DEPLOY_*.md
+# FIX_*.md
+# HOW_TO_*.md
+# TROUBLESHOOTING*.md
+# QUICK_FIX*.md
+# *_GUIDE.md
+# ALTERNATIVE*.md
+# BACKEND_*.md
+# FRESH_*.md
+
+# ============================================
+# MISC USELESS FILES
+# ============================================
+*.sum
+*.mod
+.DS_Store
+.vscode/
+.idea/
+*.iml
+*.sublime-*
+
+# Railway/Vercel specific
+.railway/
+.vercelignore.bak
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json

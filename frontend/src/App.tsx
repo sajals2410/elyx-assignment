@@ -14,15 +14,32 @@ function App() {
   const [apiConnected, setApiConnected] = useState(false);
 
   useEffect(() => {
-    // Check API connection on mount
-    apiService.healthCheck().then((connected) => {
-      setApiConnected(connected);
-      if (connected) {
-        loadSchedule();
-      } else {
-        setError('Cannot connect to API. Make sure the Flask server is running on port 5001.');
-      }
-    });
+    // Check API connection on mount (non-blocking)
+    // Don't block page rendering if health check fails
+    apiService.healthCheck()
+      .then((connected) => {
+        setApiConnected(connected);
+        if (connected) {
+          loadSchedule();
+        } else {
+          const apiUrl = process.env.REACT_APP_API_URL || 
+            (process.env.NODE_ENV === 'production' 
+              ? 'https://your-api.railway.app/api'
+              : 'http://localhost:5001/api');
+          
+          // Only show error if URL is not placeholder (means backend should be available)
+          if (!apiUrl.includes('your-api.railway.app')) {
+            setError(`Cannot connect to API at ${apiUrl}. Make sure the backend is running and the API URL is configured correctly.`);
+          } else {
+            setError('API URL not configured. Please set REACT_APP_API_URL in Vercel environment variables with your Railway backend URL.');
+          }
+        }
+      })
+      .catch((err) => {
+        console.error('Health check error:', err);
+        setApiConnected(false);
+        // Don't set error here to avoid blocking page load
+      });
   }, []);
 
   const loadSchedule = async () => {

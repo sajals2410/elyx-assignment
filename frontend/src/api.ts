@@ -10,6 +10,25 @@ const API_BASE_URL = process.env.REACT_APP_API_URL ||
     ? 'https://your-api.railway.app/api'  // Update with your Railway URL
     : 'http://localhost:5001/api');
 
+// Log API URL for debugging (only in development)
+if (process.env.NODE_ENV === 'development') {
+  console.log('API Base URL:', API_BASE_URL);
+  console.log('REACT_APP_API_URL:', process.env.REACT_APP_API_URL);
+}
+
+// Helper function to add timeout to fetch requests
+function fetchWithTimeout(url: string, options: RequestInit = {}, timeout: number = 5000): Promise<Response> {
+  return Promise.race([
+    fetch(url, options),
+    new Promise<Response>((_, reject) =>
+      setTimeout(() => reject(new Error('Request timeout')), timeout)
+    )
+  ]) as Promise<Response>;
+}
+
+// Check if API URL is the placeholder (should not be used)
+const isPlaceholderUrl = API_BASE_URL.includes('your-api.railway.app');
+
 export interface ScheduleActivity {
   activity_id: string;
   activity_name: string;
@@ -45,15 +64,22 @@ export interface ScheduleData {
 
 class ApiService {
   async healthCheck(): Promise<boolean> {
+    // Skip health check if URL is placeholder
+    if (isPlaceholderUrl) {
+      console.warn('API URL is placeholder. Set REACT_APP_API_URL environment variable in Vercel.');
+      return false;
+    }
+
     try {
       console.log('Health check: Connecting to', `${API_BASE_URL}/health`);
-      const response = await fetch(`${API_BASE_URL}/health`, {
+      const response = await fetchWithTimeout(`${API_BASE_URL}/health`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
         },
         mode: 'cors',
-      });
+      }, 5000); // 5 second timeout
+      
       console.log('Health check response status:', response.status);
       if (!response.ok) {
         const text = await response.text();
@@ -70,65 +96,107 @@ class ApiService {
       console.log('Health check data:', data);
       return data.status === 'ok';
     } catch (error: any) {
-      console.error('Health check failed:', error.message, error);
+      if (error.message === 'Request timeout') {
+        console.error('Health check timed out after 5 seconds');
+      } else {
+        console.error('Health check failed:', error.message, error);
+      }
       return false;
     }
   }
 
   async generateData(startDate: string, durationMonths: number, useGemini: boolean = true): Promise<any> {
-    const response = await fetch(`${API_BASE_URL}/generate-data`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        start_date: startDate,
-        duration_months: durationMonths,
-        use_gemini: useGemini,
-      }),
-    });
-    if (!response.ok) {
-      const text = await response.text();
-      throw new Error(`API error: ${response.status} - ${text.substring(0, 100)}`);
+    if (isPlaceholderUrl) {
+      throw new Error('API URL is not configured. Please set REACT_APP_API_URL in Vercel environment variables.');
     }
-    const contentType = response.headers.get('content-type');
-    if (!contentType || !contentType.includes('application/json')) {
-      const text = await response.text();
-      throw new Error(`Expected JSON but got: ${text.substring(0, 100)}`);
+
+    try {
+      const response = await fetchWithTimeout(`${API_BASE_URL}/generate-data`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          start_date: startDate,
+          duration_months: durationMonths,
+          use_gemini: useGemini,
+        }),
+      }, 30000); // 30 second timeout for data generation
+      
+      if (!response.ok) {
+        const text = await response.text();
+        throw new Error(`API error: ${response.status} - ${text.substring(0, 100)}`);
+      }
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        const text = await response.text();
+        throw new Error(`Expected JSON but got: ${text.substring(0, 100)}`);
+      }
+      return response.json();
+    } catch (error: any) {
+      if (error.message === 'Request timeout') {
+        throw new Error('Request timed out. The backend may be slow or unreachable.');
+      }
+      if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+        throw new Error(`Cannot connect to backend at ${API_BASE_URL}. Make sure the backend is running and the API URL is correct.`);
+      }
+      throw error;
     }
-    return response.json();
   }
 
   async generateSchedule(startDate: string, weeks: number): Promise<any> {
-    const response = await fetch(`${API_BASE_URL}/generate-schedule`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        start_date: startDate,
-        weeks: weeks,
-      }),
-    });
-    if (!response.ok) {
-      const text = await response.text();
-      throw new Error(`API error: ${response.status} - ${text.substring(0, 100)}`);
+    if (isPlaceholderUrl) {
+      throw new Error('API URL is not configured. Please set REACT_APP_API_URL in Vercel environment variables.');
     }
-    const contentType = response.headers.get('content-type');
-    if (!contentType || !contentType.includes('application/json')) {
-      const text = await response.text();
-      throw new Error(`Expected JSON but got: ${text.substring(0, 100)}`);
+
+    try {
+      const response = await fetchWithTimeout(`${API_BASE_URL}/generate-schedule`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          start_date: startDate,
+          weeks: weeks,
+        }),
+      }, 30000); // 30 second timeout for schedule generation
+      
+      if (!response.ok) {
+        const text = await response.text();
+        throw new Error(`API error: ${response.status} - ${text.substring(0, 100)}`);
+      }
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        const text = await response.text();
+        throw new Error(`Expected JSON but got: ${text.substring(0, 100)}`);
+      }
+      return response.json();
+    } catch (error: any) {
+      if (error.message === 'Request timeout') {
+        throw new Error('Request timed out. The backend may be slow or unreachable.');
+      }
+      if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+        throw new Error(`Cannot connect to backend at ${API_BASE_URL}. Make sure the backend is running and the API URL is correct.`);
+      }
+      throw error;
     }
-    return response.json();
   }
 
   async getSchedule(): Promise<ScheduleData | null> {
     try {
       const response = await fetch(`${API_BASE_URL}/schedule`);
+      if (!response.ok) {
+        console.error('Failed to get schedule:', response.status, response.statusText);
+        return null;
+      }
       const data = await response.json();
       return data.success ? data.data : null;
-    } catch (error) {
-      console.error('Failed to get schedule:', error);
+    } catch (error: any) {
+      if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+        console.error(`Cannot connect to backend at ${API_BASE_URL}. Make sure the backend is running.`);
+      } else {
+        console.error('Failed to get schedule:', error);
+      }
       return null;
     }
   }
@@ -136,10 +204,18 @@ class ApiService {
   async getStatistics(): Promise<Statistics | null> {
     try {
       const response = await fetch(`${API_BASE_URL}/statistics`);
+      if (!response.ok) {
+        console.error('Failed to get statistics:', response.status, response.statusText);
+        return null;
+      }
       const data = await response.json();
       return data.success ? data.statistics : null;
-    } catch (error) {
-      console.error('Failed to get statistics:', error);
+    } catch (error: any) {
+      if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+        console.error(`Cannot connect to backend at ${API_BASE_URL}. Make sure the backend is running.`);
+      } else {
+        console.error('Failed to get statistics:', error);
+      }
       return null;
     }
   }
