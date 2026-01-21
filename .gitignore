@@ -103,7 +103,6 @@ secrets/
 # VERCEL
 # ============================================
 .vercel/
-.vercelignore.bak
 
 # ============================================
 # GENERATED DATA & OUTPUT
@@ -153,18 +152,6 @@ node_modules/
 main.py
 # api.py  # Uncomment this if not deploying
 app.py
-test_*.py
-*_test.py
-tests/
-test/
-
-# ============================================
-# PDF CONVERSION SCRIPTS (Not needed)
-# ============================================
-convert_to_pdf.py
-convert_to_pdf_v2.py
-convert_system_design_to_pdf.py
-convert_system_design_to_pdf_enhanced.py
 
 # ============================================
 # SHELL SCRIPTS (Local development only)
@@ -250,43 +237,69 @@ fix_connection.sh
 # DOCUMENTATION FILES (deployment guides)
 # Keep main README.md, ignore deployment-specific docs
 # ============================================
-# Uncomment to ignore deployment documentation:
-# *_DEPLOYMENT*.md
-# DEPLOY_*.md
-# FIX_*.md
-# HOW_TO_*.md
-# TROUBLESHOOTING*.md
-# QUICK_FIX*.md
-# *_GUIDE.md
-# ALTERNATIVE*.md
-# BACKEND_*.md
-# FRESH_*.md
+# Ignore all deployment documentation
+*_DEPLOYMENT*.md
+DEPLOY_*.md
+FIX_*.md
+HOW_TO_*.md
+TROUBLESHOOTING*.md
+QUICK_FIX*.md
+QUICK_START*.md
+*_GUIDE.md
+ALTERNATIVE*.md
+BACKEND_*.md
+FRESH_*.md
+*_SUMMARY.md
+*_LIST.md
+*_QUESTIONS.md
+*_DIVE.md
+*_STEPS.md
+*_REPORT.md
+*_CATEGORIZATION.md
+*_COMMANDS.md
+*_README.md
+🚀_*.md
+!README.md
+
+# ============================================
+# DATA GENERATOR SCRIPTS (development only)
+# ============================================
+data_generator.py
+data_generator_gemini.py
+test_gemini.py
+
+# ============================================
+# CONVERSION & OUTPUT SCRIPTS (development only)
+# ============================================
+convert_to_pdf.py
+convert_to_pdf_v2.py
+convert_system_design_to_pdf.py
+convert_system_design_to_pdf_enhanced.py
+calendar_output.py
+
+# ============================================
+# TEST FILES
+# ============================================
+test_*.py
+*_test.py
+tests/
+test/
+
+# ============================================
+# RAILWAY
+# ============================================
+.railway/
 
 # ============================================
 # MISC USELESS FILES
 # ============================================
 *.sum
 *.mod
-.DS_Store
-.vscode/
-.idea/
 *.iml
-*.sublime-*
-
-# Railway/Vercel specific
-.railway/
 .vercelignore.bak
 
-# Coverage reports
-.coverage
-htmlcov/
+# Coverage reports (additional)
 .coverage.*
 coverage.xml
 *.cover
 .hypothesis/
-.pytest_cache/
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
