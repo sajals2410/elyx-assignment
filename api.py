@@ -111,6 +111,9 @@ def generate_schedule():
         scheduled_activities = scheduler.generate_schedule()
         statistics = scheduler.get_statistics()
         
+        # Ensure output directory exists
+        Path("output").mkdir(parents=True, exist_ok=True)
+        
         # Generate output files
         generate_all_outputs(scheduled_activities, "output")
         
@@ -165,21 +168,28 @@ def get_statistics():
 @app.route('/api/download/<file_type>', methods=['GET'])
 def download_file(file_type):
     """Download output files."""
-    file_map = {
-        'text': 'output/schedule_text.txt',
-        'html': 'output/schedule.html',
-        'ics': 'output/schedule.ics',
-        'json': 'output/schedule_summary.json'
-    }
-    
-    if file_type not in file_map:
-        return jsonify({"error": "Invalid file type"}), 400
-    
-    file_path = Path(file_map[file_type])
-    if not file_path.exists():
-        return jsonify({"error": "File not found"}), 404
-    
-    return send_file(file_path, as_attachment=True)
+    try:
+        file_map = {
+            'text': 'output/schedule_text.txt',
+            'html': 'output/schedule.html',
+            'ics': 'output/schedule.ics',
+            'json': 'output/schedule_summary.json'
+        }
+        
+        if file_type not in file_map:
+            return jsonify({"success": False, "error": "Invalid file type"}), 400
+        
+        file_path = Path(file_map[file_type])
+        
+        # Ensure output directory exists
+        file_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        if not file_path.exists():
+            return jsonify({"success": False, "error": f"File not found: {file_type}. Please generate a schedule first."}), 404
+        
+        return send_file(str(file_path), as_attachment=True)
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)}), 500
 
 @app.route('/api/activities', methods=['GET'])
 def get_activities():
