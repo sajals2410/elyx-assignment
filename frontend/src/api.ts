@@ -5,10 +5,20 @@
 // API URL configuration
 // Set REACT_APP_API_URL in Vercel environment variables for production
 // Or update this directly for Railway backend
-const API_BASE_URL = process.env.REACT_APP_API_URL || 
+let API_BASE_URL = process.env.REACT_APP_API_URL || 
   (process.env.NODE_ENV === 'production' 
-    ? 'https://your-api.railway.app/api'  // Update with your Railway URL
+    ? 'https://web-production-46708.up.railway.app/api'  // Railway backend URL
     : 'http://localhost:5001/api');
+
+// Validate API URL - reject Railway project page URLs
+if (API_BASE_URL.includes('railway.com/project/')) {
+  console.error('INVALID API URL DETECTED:', API_BASE_URL);
+  console.error('You have set a Railway project page URL instead of the API endpoint URL.');
+  console.error('The correct format should be: https://your-service-name.railway.app/api');
+  console.error('Please set REACT_APP_API_URL to your actual Railway API endpoint (not the project page).');
+  // Reset to default Railway URL so error messages are clear
+  API_BASE_URL = 'https://web-production-46708.up.railway.app/api';
+}
 
 // Log API URL for debugging (only in development)
 if (process.env.NODE_ENV === 'development') {
@@ -26,7 +36,7 @@ function fetchWithTimeout(url: string, options: RequestInit = {}, timeout: numbe
   ]) as Promise<Response>;
 }
 
-// Check if API URL is the placeholder (should not be used)
+// Check if API URL is a placeholder (old placeholder pattern)
 const isPlaceholderUrl = API_BASE_URL.includes('your-api.railway.app');
 
 export interface ScheduleActivity {
@@ -138,7 +148,12 @@ class ApiService {
         throw new Error('Request timed out. The backend may be slow or unreachable.');
       }
       if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
-        throw new Error(`Cannot connect to backend at ${API_BASE_URL}. Make sure the backend is running and the API URL is correct.`);
+        // Check if the original env var was a Railway project page URL
+        const originalUrl = process.env.REACT_APP_API_URL || '';
+        if (originalUrl.includes('railway.com/project/')) {
+          throw new Error(`Invalid API URL detected: You have set a Railway project page URL (${originalUrl}) instead of the API endpoint. The correct format should be: https://your-service-name.railway.app/api. Please update REACT_APP_API_URL in Vercel environment variables with your actual Railway API endpoint URL.`);
+        }
+        throw new Error(`Cannot connect to backend at ${API_BASE_URL}. Make sure the backend is running and the API URL is correct. If using Railway, ensure REACT_APP_API_URL is set to your Railway service URL (format: https://your-service.railway.app/api), not the project page URL.`);
       }
       throw error;
     }
@@ -176,7 +191,12 @@ class ApiService {
         throw new Error('Request timed out. The backend may be slow or unreachable.');
       }
       if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
-        throw new Error(`Cannot connect to backend at ${API_BASE_URL}. Make sure the backend is running and the API URL is correct.`);
+        // Check if the original env var was a Railway project page URL
+        const originalUrl = process.env.REACT_APP_API_URL || '';
+        if (originalUrl.includes('railway.com/project/')) {
+          throw new Error(`Invalid API URL detected: You have set a Railway project page URL (${originalUrl}) instead of the API endpoint. The correct format should be: https://your-service-name.railway.app/api. Please update REACT_APP_API_URL in Vercel environment variables with your actual Railway API endpoint URL.`);
+        }
+        throw new Error(`Cannot connect to backend at ${API_BASE_URL}. Make sure the backend is running and the API URL is correct. If using Railway, ensure REACT_APP_API_URL is set to your Railway service URL (format: https://your-service.railway.app/api), not the project page URL.`);
       }
       throw error;
     }

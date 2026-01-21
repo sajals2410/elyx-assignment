@@ -22,7 +22,6 @@ from data_generator import DataGenerator
 from data_generator_gemini import GeminiDataGenerator
 from scheduler import ResourceAllocator, load_data
 from calendar_output import CalendarFormatter, generate_all_outputs
-import os
 
 app = Flask(__name__)
 # Enable CORS for all origins - allows frontend from any domain to access the API
@@ -202,5 +201,6 @@ def get_activities():
         return jsonify({"success": False, "error": str(e)}), 500
 
 if __name__ == '__main__':
-    port = int(os.getenv(5001))
+    # Railway sets PORT environment variable, fallback to 5001 for local
+    port = int(os.getenv('PORT', '5001'))
     app.run(debug=False, port=port, host='0.0.0.0')
