@@ -12,8 +12,6 @@ The Resource Allocator is a scheduling system that:
 3. Respects **Personal Constraints** (travel plans, work schedule, preferences)
 4. Outputs a **Personalized Schedule** in readable calendar formats
 
-![Resource Allocator Diagram](resource_allocator_diagram.png)
-
 ## 🚀 Quick Start
 
 ```bash
