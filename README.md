@@ -2,7 +2,7 @@
 
 A Python implementation of the Resource Allocator system that transforms HealthSpan AI recommendations into personalized, scheduled activities.
 
-[Use the deployed app] - https://elyx-assignment-hkv5-git-main-sajals2410s-projects.vercel.app/
+
 
 ## 📋 Overview
 
